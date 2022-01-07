@@ -1,0 +1,1233 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2021.10.07 07:52:59 =~=~=~=~=~=~=~=~=~=~=~=
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 0
+<info> app: 
+Sensor started.
+<info> app: 
+Sensor started.
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 0
+<info> app: ACCELEROMETER DATA: X = 29, Y = -101, Z = 16638
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 0
+<error> app: Fatal error
+<warning> app: System reset
+<info> app: 
+Sensor started.
+<info> app: ACCELEROMETER DATA: X = 35, Y = -107, Z = 16643
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 1
+<info> app: ACCELEROMETER DATA: X = 27, Y = -104, Z = 16633
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 1
+<info> app: ACCELEROMETER DATA: X = 32, Y = -99, Z = 16633
+<info> app: Heartrate: 79
+<info> app: Confidence: 50
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 27, Y = -107, Z = 16651
+<info> app: Heartrate: 79
+<info> app: Confidence: 50
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 25, Y = -108, Z = 16645
+<info> app: Heartrate: 79
+<info> app: Confidence: 50
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 37, Y = -93, Z = 16645
+<info> app: Heartrate: 79
+<info> app: Confidence: 50
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 21, Y = -116, Z = 16630
+<info> app: Heartrate: 79
+<info> app: Confidence: 50
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 33, Y = -112, Z = 16638
+<info> app: Heartrate: 79
+<info> app: Confidence: 50
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 31, Y = -106, Z = 16638
+<info> app: Heartrate: 79
+<info> app: Confidence: 94
+<info> app: Oxygen: 0
+<info> app: Status: 0
+<info> app: ACCELEROMETER DATA: X = 41, Y = -84, Z = 16649
+<info> app: Heartrate: 79
+<info> app: Confidence: 94
+<info> app: Oxygen: 0
+<info> app: Status: 0
+<info> app: ACCELEROMETER DATA: X = 54, Y = -150, Z = 16649
+<info> app: Heartrate: 79
+<info> app: Confidence: 94
+<info> app: Oxygen: 0
+<info> app: Status: 0
+<info> app: ACCELEROMETER DATA: X = 46, Y = -98, Z = 16643
+<info> app: Heartrate: 79
+<info> app: Confidence: 94
+<info> app: Oxygen: 0
+<info> app: Status: 0
+<info> app: ACCELEROMETER DATA: X = 55, Y = -109, Z = 16645
+<info> app: Heartrate: 79
+<info> app: Confidence: 94
+<info> app: Oxygen: 0
+<info> app: Status: 0
+<info> app: ACCELEROMETER DATA: X = 53, Y = -129, Z = 16648
+<info> app: Heartrate: 79
+<info> app: Confidence: 94
+<info> app: Oxygen: 0
+<info> app: Status: 0
+<info> app: ACCELEROMETER DATA: X = 53, Y = -109, Z = 16637
+<info> app: Heartrate: 79
+<info> app: Confidence: 94
+<info> app: Oxygen: 0
+<info> app: Status: 0
+<info> app: ACCELEROMETER DATA: X = 48, Y = -110, Z = 16650
+<info> app: Heartrate: 79
+<info> app: Confidence: 94
+<info> app: Oxygen: 0
+<info> app: Status: 0
+<info> app: ACCELEROMETER DATA: X = 49, Y = -96, Z = 16658
+<info> app: Heartrate: 79
+<info> app: Confidence: 94
+<info> app: Oxygen: 0
+<info> app: Status: 0
+<info> app: ACCELEROMETER DATA: X = 46, Y = -113, Z = 16641
+<info> app: Heartrate: 79
+<info> app: Confidence: 94
+<info> app: Oxygen: 0
+<info> app: Status: 0
+<info> app: ACCELEROMETER DATA: X = 51, Y = -103, Z = 16642
+<info> app: Heartrate: 79
+<info> app: Confidence: 94
+<info> app: Oxygen: 0
+<info> app: Status: 0
+<info> app: ACCELEROMETER DATA: X = 52, Y = -115, Z = 16648
+<info> app: Heartrate: 79
+<info> app: Confidence: 94
+<info> app: Oxygen: 0
+<info> app: Status: 0
+<info> app: ACCELEROMETER DATA: X = 50, Y = -102, Z = 16638
+<info> app: Heartrate: 79
+<info> app: Confidence: 94
+<info> app: Oxygen: 0
+<info> app: Status: 0
+<info> app: ACCELEROMETER DATA: X = 44, Y = -116, Z = 16654
+<info> app: Heartrate: 79
+<info> app: Confidence: 94
+<info> app: Oxygen: 0
+<info> app: Status: 0
+<info> app: ACCELEROMETER DATA: X = 33, Y = -104, Z = 16646
+<info> app: Heartrate: 79
+<info> app: Confidence: 94
+<info> app: Oxygen: 0
+<info> app: Status: 0
+<info> app: ACCELEROMETER DATA: X = 33, Y = -100, Z = 16641
+<info> app: Heartrate: 79
+<info> app: Confidence: 94
+<info> app: Oxygen: 0
+<info> app: Status: 0
+<info> app: ACCELEROMETER DATA: X = 35, Y = -122, Z = 16633
+<info> app: Heartrate: 79
+<info> app: Confidence: 94
+<info> app: Oxygen: 0
+<info> app: Status: 0
+<info> app: ACCELEROMETER DATA: X = 32, Y = -99, Z = 16647
+<info> app: Heartrate: 79
+<info> app: Confidence: 94
+<info> app: Oxygen: 0
+<info> app: Status: 0
+<info> app: ACCELEROMETER DATA: X = 36, Y = -102, Z = 16660
+<info> app: Heartrate: 79
+<info> app: Confidence: 94
+<info> app: Oxygen: 0
+<info> app: Status: 0
+<info> app: ACCELEROMETER DATA: X = 17, Y = -64, Z = 16641
+<info> app: Heartrate: 79
+<info> app: Confidence: 94
+<info> app: Oxygen: 0
+<info> app: Status: 0
+<info> app: ACCELEROMETER DATA: X = 53, Y = -102, Z = 16643
+<info> app: Heartrate: 79
+<info> app: Confidence: 94
+<info> app: Oxygen: 0
+<info> app: Status: 0
+<info> app: ACCELEROMETER DATA: X = 52, Y = -120, Z = 16630
+<info> app: Heartrate: 79
+<info> app: Confidence: 94
+<info> app: Oxygen: 0
+<info> app: Status: 0
+<info> app: ACCELEROMETER DATA: X = 50, Y = -115, Z = 16631
+<info> app: Heartrate: 79
+<info> app: Confidence: 94
+<info> app: Oxygen: 0
+<info> app: Status: 0
+<info> app: ACCELEROMETER DATA: X = 39, Y = -115, Z = 16647
+<info> app: Heartrate: 79
+<info> app: Confidence: 94
+<info> app: Oxygen: 0
+<info> app: Status: 0
+<info> app: ACCELEROMETER DATA: X = 45, Y = -98, Z = 16637
+<info> app: Heartrate: 79
+<info> app: Confidence: 94
+<info> app: Oxygen: 0
+<info> app: Status: 0
+<info> app: ACCELEROMETER DATA: X = 32, Y = -110, Z = 16650
+<info> app: Heartrate: 79
+<info> app: Confidence: 94
+<info> app: Oxygen: 0
+<info> app: Status: 0
+<info> app: ACCELEROMETER DATA: X = 44, Y = -51, Z = 16612
+<info> app: Heartrate: 79
+<info> app: Confidence: 94
+<info> app: Oxygen: 0
+<info> app: Status: 0
+<info> app: ACCELEROMETER DATA: X = 52, Y = -91, Z = 16644
+<info> app: Heartrate: 79
+<info> app: Confidence: 94
+<info> app: Oxygen: 0
+<info> app: Status: 0
+<info> app: ACCELEROMETER DATA: X = 46, Y = -75, Z = 16615
+<info> app: Heartrate: 79
+<info> app: Confidence: 94
+<info> app: Oxygen: 0
+<info> app: Status: 0
+<info> app: ACCELEROMETER DATA: X = 22, Y = -93, Z = 16646
+<info> app: Heartrate: 79
+<info> app: Confidence: 94
+<info> app: Oxygen: 0
+<info> app: Status: 0
+<info> app: ACCELEROMETER DATA: X = 21, Y = -94, Z = 16615
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 1
+<info> app: ACCELEROMETER DATA: X = 32, Y = -104, Z = 16646
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 1
+<info> app: ACCELEROMETER DATA: X = 32, Y = -105, Z = 16648
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 1
+<info> app: ACCELEROMETER DATA: X = 44, Y = -99, Z = 16649
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 1
+<info> app: ACCELEROMETER DATA: X = 40, Y = -102, Z = 16642
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 1
+<info> app: ACCELEROMETER DATA: X = 49, Y = -106, Z = 16650
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 1
+<info> app: ACCELEROMETER DATA: X = 38, Y = -100, Z = 16647
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 1
+<info> app: ACCELEROMETER DATA: X = 41, Y = -102, Z = 16656
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 1
+<info> app: ACCELEROMETER DATA: X = 61, Y = -112, Z = 16653
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 1
+<info> app: ACCELEROMETER DATA: X = 53, Y = -111, Z = 16643
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 1
+<info> app: ACCELEROMETER DATA: X = 65, Y = -107, Z = 16652
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 1
+<info> app: ACCELEROMETER DATA: X = 74, Y = -111, Z = 16661
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 1
+<info> app: ACCELEROMETER DATA: X = 62, Y = -110, Z = 16650
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 1
+<info> app: ACCELEROMETER DATA: X = 57, Y = -117, Z = 16631
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 1
+<info> app: ACCELEROMETER DATA: X = 67, Y = -113, Z = 16652
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 1
+<info> app: ACCELEROMETER DATA: X = 61, Y = -110, Z = 16647
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 1
+<info> app: ACCELEROMETER DATA: X = 46, Y = -107, Z = 16650
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 1
+<info> app: ACCELEROMETER DATA: X = 39, Y = -107, Z = 16647
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 1
+<info> app: ACCELEROMETER DATA: X = 43, Y = -93, Z = 16640
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 1
+<info> app: ACCELEROMETER DATA: X = 42, Y = -110, Z = 16658
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 1
+<info> app: ACCELEROMETER DATA: X = 51, Y = -107, Z = 16654
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 1
+<info> app: ACCELEROMETER DATA: X = 44, Y = -102, Z = 16652
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 1
+<info> app: ACCELEROMETER DATA: X = 54, Y = -108, Z = 16653
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 1
+<info> app: ACCELEROMETER DATA: X = 60, Y = -109, Z = 16643
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 1
+<info> app: ACCELEROMETER DATA: X = 60, Y = -97, Z = 16644
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 1
+<info> app: ACCELEROMETER DATA: X = 60, Y = -115, Z = 16662
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 1
+<info> app: ACCELEROMETER DATA: X = 67, Y = -108, Z = 16650
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 1
+<info> app: ACCELEROMETER DATA: X = 57, Y = -112, Z = 16653
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 1
+<info> app: ACCELEROMETER DATA: X = 56, Y = -100, Z = 16637
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 1
+<info> app: ACCELEROMETER DATA: X = 59, Y = -113, Z = 16649
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 1
+<info> app: ACCELEROMETER DATA: X = 60, Y = -120, Z = 16660
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 1
+<info> app: ACCELEROMETER DATA: X = 81, Y = -97, Z = 16662
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 2
+<info> app: ACCELEROMETER DATA: X = 57, Y = -131, Z = 16637
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 2
+<info> app: ACCELEROMETER DATA: X = 58, Y = -104, Z = 16649
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 2
+<info> app: ACCELEROMETER DATA: X = 64, Y = -105, Z = 16649
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 2
+<info> app: ACCELEROMETER DATA: X = 51, Y = -104, Z = 16644
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 2
+<info> app: ACCELEROMETER DATA: X = 72, Y = -108, Z = 16672
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 2
+<info> app: ACCELEROMETER DATA: X = 64, Y = -105, Z = 16647
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 2
+<info> app: ACCELEROMETER DATA: X = 61, Y = -113, Z = 16634
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 2
+<info> app: ACCELEROMETER DATA: X = 49, Y = -96, Z = 16642
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 2
+<info> app: ACCELEROMETER DATA: X = 60, Y = -120, Z = 16643
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 2
+<info> app: ACCELEROMETER DATA: X = 67, Y = -104, Z = 16640
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 2
+<info> app: ACCELEROMETER DATA: X = 51, Y = -125, Z = 16655
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 2
+<info> app: ACCELEROMETER DATA: X = 61, Y = -107, Z = 16649
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 2
+<info> app: ACCELEROMETER DATA: X = 58, Y = -104, Z = 16639
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 64, Y = -87, Z = 16659
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 67, Y = -91, Z = 16645
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 64, Y = -116, Z = 16632
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 65, Y = -113, Z = 16639
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 64, Y = -110, Z = 16647
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 62, Y = -106, Z = 16650
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 74, Y = -99, Z = 16639
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 66, Y = -109, Z = 16647
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 58, Y = -99, Z = 16646
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 56, Y = -99, Z = 16642
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 66, Y = -90, Z = 16648
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 51, Y = -104, Z = 16637
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 51, Y = -96, Z = 16661
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 54, Y = -103, Z = 16657
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 47, Y = -102, Z = 16649
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 57, Y = -100, Z = 16642
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 55, Y = -106, Z = 16655
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 49, Y = -108, Z = 16674
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 52, Y = -101, Z = 16651
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 50, Y = -104, Z = 16640
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 55, Y = -98, Z = 16651
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 52, Y = -102, Z = 16651
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 49, Y = -93, Z = 16653
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 51, Y = -91, Z = 16657
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 47, Y = -100, Z = 16650
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 50, Y = -98, Z = 16642
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 56, Y = -105, Z = 16653
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 50, Y = -101, Z = 16645
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 55, Y = -103, Z = 16636
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 45, Y = -102, Z = 16645
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 56, Y = -106, Z = 16656
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 63, Y = -105, Z = 16658
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 43, Y = -97, Z = 16645
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 41, Y = -100, Z = 16646
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 57, Y = -102, Z = 16658
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 48, Y = -103, Z = 16646
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 47, Y = -107, Z = 16649
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 48, Y = -102, Z = 16647
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 52, Y = -96, Z = 16652
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 52, Y = -103, Z = 16658
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 46, Y = -103, Z = 16654
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 51, Y = -101, Z = 16643
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 56, Y = -105, Z = 16646
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 62, Y = -103, Z = 16642
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 45, Y = -110, Z = 16639
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 59, Y = -118, Z = 16666
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 118, Y = -105, Z = 16648
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 49, Y = -105, Z = 16648
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 109, Y = -120, Z = 16639
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 50, Y = -111, Z = 16640
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 57, Y = -112, Z = 16646
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 62, Y = -99, Z = 16648
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 63, Y = -107, Z = 16645
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 68, Y = -121, Z = 16644
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 66, Y = -107, Z = 16652
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 62, Y = -90, Z = 16662
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 72, Y = -121, Z = 16641
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 63, Y = -104, Z = 16637
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 54, Y = -102, Z = 16644
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 69, Y = -108, Z = 16652
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 65, Y = -98, Z = 16640
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 53, Y = -93, Z = 16649
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 66, Y = -104, Z = 16653
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 68, Y = -104, Z = 16644
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 2
+<info> app: ACCELEROMETER DATA: X = 64, Y = -110, Z = 16652
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 2
+<info> app: ACCELEROMETER DATA: X = 64, Y = -115, Z = 16658
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 2
+<info> app: ACCELEROMETER DATA: X = 69, Y = -94, Z = 16653
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 2
+<info> app: ACCELEROMETER DATA: X = 63, Y = -109, Z = 16647
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 2
+<info> app: ACCELEROMETER DATA: X = 57, Y = -109, Z = 16643
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 2
+<info> app: ACCELEROMETER DATA: X = 55, Y = -96, Z = 16636
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 64, Y = -96, Z = 16645
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 68, Y = -116, Z = 16635
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 70, Y = -108, Z = 16646
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 53, Y = -111, Z = 16644
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 63, Y = -103, Z = 16640
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 65, Y = -105, Z = 16645
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 66, Y = -108, Z = 16654
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 53, Y = -100, Z = 16643
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 65, Y = -115, Z = 16662
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 58, Y = -107, Z = 16642
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 63, Y = -92, Z = 16648
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 75, Y = -108, Z = 16647
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 62, Y = -110, Z = 16635
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 54, Y = -105, Z = 16656
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 60, Y = -111, Z = 16655
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 63, Y = -104, Z = 16640
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 65, Y = -114, Z = 16641
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 59, Y = -99, Z = 16655
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 68, Y = -101, Z = 16664
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 65, Y = -111, Z = 16652
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 55, Y = -106, Z = 16642
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 53, Y = -106, Z = 16651
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 64, Y = -106, Z = 16654
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 56, Y = -110, Z = 16637
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 67, Y = -114, Z = 16664
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 68, Y = -98, Z = 16646
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 58, Y = -113, Z = 16657
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 62, Y = -118, Z = 16637
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 69, Y = -101, Z = 16650
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 55, Y = -97, Z = 16661
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 67, Y = -107, Z = 16649
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 63, Y = -104, Z = 16661
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 2
+<info> app: ACCELEROMETER DATA: X = 57, Y = -112, Z = 16647
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 2
+<info> app: ACCELEROMETER DATA: X = 59, Y = -106, Z = 16652
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 2
+<info> app: ACCELEROMETER DATA: X = 53, Y = -120, Z = 16657
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 2
+<info> app: ACCELEROMETER DATA: X = 65, Y = -104, Z = 16663
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 2
+<info> app: ACCELEROMETER DATA: X = 48, Y = -101, Z = 16653
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 2
+<info> app: ACCELEROMETER DATA: X = 67, Y = -105, Z = 16650
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 2
+<info> app: ACCELEROMETER DATA: X = 53, Y = -109, Z = 16649
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 59, Y = -109, Z = 16664
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 59, Y = -106, Z = 16657
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 60, Y = -97, Z = 16645
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 60, Y = -111, Z = 16645
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 68, Y = -103, Z = 16639
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 72, Y = -98, Z = 16643
+<info> app: Heartrate: 81
+<info> app: Confidence: 50
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 60, Y = -118, Z = 16655
+<info> app: Heartrate: 81
+<info> app: Confidence: 50
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 57, Y = -112, Z = 16639
+<info> app: Heartrate: 81
+<info> app: Confidence: 50
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 63, Y = -117, Z = 16657
+<info> app: Heartrate: 81
+<info> app: Confidence: 50
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 48, Y = -102, Z = 16646
+<info> app: Heartrate: 81
+<info> app: Confidence: 50
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 66, Y = -116, Z = 16669
+<info> app: Heartrate: 81
+<info> app: Confidence: 50
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 54, Y = -104, Z = 16650
+<info> app: Heartrate: 81
+<info> app: Confidence: 50
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 59, Y = -113, Z = 16640
+<info> app: Heartrate: 60
+<info> app: Confidence: 94
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 61, Y = -101, Z = 16669
+<info> app: Heartrate: 60
+<info> app: Confidence: 94
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 60, Y = -113, Z = 16656
+<info> app: Heartrate: 60
+<info> app: Confidence: 94
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 55, Y = -110, Z = 16656
+<info> app: Heartrate: 60
+<info> app: Confidence: 94
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 71, Y = -105, Z = 16651
+<info> app: Heartrate: 60
+<info> app: Confidence: 94
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 63, Y = -100, Z = 16662
+<info> app: Heartrate: 60
+<info> app: Confidence: 94
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 64, Y = -105, Z = 16648
+<info> app: Heartrate: 61
+<info> app: Confidence: 93
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 69, Y = -106, Z = 16652
+<info> app: Heartrate: 61
+<info> app: Confidence: 93
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 65, Y = -108, Z = 16647
+<info> app: Heartrate: 61
+<info> app: Confidence: 93
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 74, Y = -107, Z = 16637
+<info> app: Heartrate: 61
+<info> app: Confidence: 93
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 53, Y = -101, Z = 16636
+<info> app: Heartrate: 61
+<info> app: Confidence: 93
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 61, Y = -108, Z = 16651
+<info> app: Heartrate: 61
+<info> app: Confidence: 93
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 69, Y = -119, Z = 16656
+<info> app: Heartrate: 61
+<info> app: Confidence: 93
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 51, Y = -106, Z = 16651
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 70, Y = -112, Z = 16641
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 53, Y = -106, Z = 16655
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 61, Y = -104, Z = 16648
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 56, Y = -108, Z = 16658
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 50, Y = -106, Z = 16652
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 61, Y = -100, Z = 16657
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 60, Y = -103, Z = 16654
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 63, Y = -104, Z = 16648
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 58, Y = -107, Z = 16648
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 69, Y = -112, Z = 16652
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 69, Y = -96, Z = 16648
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 54, Y = -101, Z = 16644
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 83, Y = -105, Z = 16657
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 36, Y = -117, Z = 16633
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 79, Y = -110, Z = 16648
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 55, Y = -112, Z = 16643
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 71, Y = -128, Z = 16639
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 26, Y = -107, Z = 16639
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 1784, Y = -177, Z = 16399
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 1907, Y = -150, Z = 16547
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 1872, Y = -145, Z = 16525
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 1843, Y = -192, Z = 16538
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 3
+<info> app: ACCELEROMETER DATA: X = 1848, Y = -168, Z = 16536
+<info> app: Heartrate: 0
+<info> app: Confidence: 0
+<info> app: Oxygen: 0
+<info> app: Status: 0
+<info> app: 
+Sensor started.
+<info> app: 
+Sensor started.
+<info> app: 
+Sensor started.

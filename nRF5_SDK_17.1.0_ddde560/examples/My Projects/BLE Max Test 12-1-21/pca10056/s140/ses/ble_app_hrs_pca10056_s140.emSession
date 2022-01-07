@@ -1,0 +1,98 @@
+<!DOCTYPE CrossStudio_Session_File>
+<session>
+ <Bookmarks>
+  <BookmarkItem objectName="" line="789" column="-1" path="C:/Users/benja/OneDrive/Documents/Apnea Firmware/nRF5_SDK_17.1.0_ddde560/examples/My Projects/BLE Max Test/main.c" number="6" extra="init.advdata.uuids_complete.p_uuids = m_adv_uuids;" color="5"/>
+  <BookmarkItem objectName="" line="134" column="-1" path="C:/Users/benja/OneDrive/Documents/Apnea Firmware/nRF5_SDK_17.1.0_ddde560/examples/My Projects/BLE Max Test/main.c" number="1" extra="static ble_uuid_t m_adv_uuids[] = /**&lt; Universally unique service identifiers. */" color="5"/>
+  <BookmarkItem objectName="" line="136" column="-1" path="C:/Users/benja/OneDrive/Documents/Apnea Firmware/nRF5_SDK_17.1.0_ddde560/examples/My Projects/BLE Max Test/main.c" number="2" extra="{BLE_UUID_HEART_RATE_SERVICE, BLE_UUID_TYPE_BLE}," color="5"/>
+  <BookmarkItem objectName="" line="137" column="-1" path="C:/Users/benja/OneDrive/Documents/Apnea Firmware/nRF5_SDK_17.1.0_ddde560/examples/My Projects/BLE Max Test/main.c" number="3" extra="{BLE_UUID_PLX_SERVICE, BLE_UUID_TYPE_BLE}," color="5"/>
+  <BookmarkItem objectName="" line="138" column="-1" path="C:/Users/benja/OneDrive/Documents/Apnea Firmware/nRF5_SDK_17.1.0_ddde560/examples/My Projects/BLE Max Test/main.c" number="4" extra="{BLE_UUID_DEVICE_INFORMATION_SERVICE, BLE_UUID_TYPE_BLE}" color="5"/>
+  <BookmarkItem objectName="" line="788" column="-1" path="C:/Users/benja/OneDrive/Documents/Apnea Firmware/nRF5_SDK_17.1.0_ddde560/examples/My Projects/BLE Max Test/main.c" number="5" extra="init.advdata.uuids_complete.uuid_cnt = sizeof(m_adv_uuids) / sizeof(m_adv_uuids[0]);" color="5"/>
+ </Bookmarks>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints">
+  <BreakpointListItem trigger="" line="448" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="4" filename="../../../../../../components/ble/ble_services/ble_apneas/ble_apneas.c" useHWbreakpoint="false"/>
+  <BreakpointListItem trigger="" line="465" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="4" filename="../../../../../../components/ble/ble_services/ble_apneas/ble_apneas.c" useHWbreakpoint="false"/>
+  <BreakpointListItem trigger="" line="482" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="4" filename="../../../../../../components/ble/ble_services/ble_apneas/ble_apneas.c" useHWbreakpoint="false"/>
+  <BreakpointListItem trigger="" line="502" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" group="Breakpoints" type="Breakpoint" state="2" filename="../../../main.c" useHWbreakpoint="false"/>
+  <Exceptions set="MemManage;UsageFault_Coprocessor;UsageFault_CheckingError;UsageFault_StateError;BusFault;ExceptionEntryReturnFault;HardFault"/>
+ </Breakpoints>
+ <ExecutionProfileWindow/>
+ <FrameBufferWindow>
+  <FrameBufferWindow bufferHeight="-1" addressSpace="" addressText="" bufferWidth="-1"/>
+ </FrameBufferWindow>
+ <Memory1>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="ble_app_hrs_pca10056_s140" radix="16" sizeText="" addressText=""/>
+ </Memory1>
+ <Memory2>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="ble_app_hrs_pca10056_s140" radix="16" sizeText="" addressText=""/>
+ </Memory2>
+ <Memory3>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="ble_app_hrs_pca10056_s140" radix="16" sizeText="" addressText=""/>
+ </Memory3>
+ <Memory4>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="ble_app_hrs_pca10056_s140" radix="16" sizeText="" addressText=""/>
+ </Memory4>
+ <Project>
+  <ProjectSessionItem path="ble_app_hrs_pca10056_s140"/>
+  <ProjectSessionItem path="ble_app_hrs_pca10056_s140;ble_app_hrs_pca10056_s140"/>
+  <ProjectSessionItem path="ble_app_hrs_pca10056_s140;ble_app_hrs_pca10056_s140;Application"/>
+  <ProjectSessionItem path="ble_app_hrs_pca10056_s140;ble_app_hrs_pca10056_s140;Max Sensor"/>
+  <ProjectSessionItem path="ble_app_hrs_pca10056_s140;ble_app_hrs_pca10056_s140;nRF_BLE_Services"/>
+  <ProjectSessionItem path="ble_app_hrs_pca10056_s140;ble_app_hrs_pca10056_s140;nRF_Drivers"/>
+  <ProjectSessionItem path="ble_app_hrs_pca10056_s140;ble_app_hrs_pca10056_s140;nRF_Libraries"/>
+ </Project>
+ <Register1>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="ble_app_hrs_pca10056_s140" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register1>
+ <Register2>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="ble_app_hrs_pca10056_s140" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register2>
+ <Register3>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="ble_app_hrs_pca10056_s140" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register3>
+ <Register4>
+  <RegisterWindow visibleNodes="CPU - Current Context/r0;CPU - Current Context/r1;CPU - Current Context/r2;CPU - Current Context/r3;CPU - Current Context/r4;CPU - Current Context/r5;CPU - Current Context/r6;CPU - Current Context/r7;CPU - Current Context/r8;CPU - Current Context/r9;CPU - Current Context/r10;CPU - Current Context/r11;CPU - Current Context/r12;CPU - Current Context/sp(r13);CPU - Current Context/lr(r14);CPU - Current Context/pc(r15);CPU - Current Context/apsr;CPU/r0;CPU/r1;CPU/r2;CPU/r3;CPU/r4;CPU/r5;CPU/r6;CPU/r7;CPU/r8;CPU/r9;CPU/r10;CPU/r11;CPU/r12;CPU/sp(r13);CPU/lr(r14);CPU/pc(r15);CPU/xpsr;CPU/MSP;CPU/PSP;CPU/PRIMASK;CPU/BASEPRI;CPU/FAULTMASK;CPU/CONTROL;CPU/internal" binaryNodes="" asciiNodes="" openNodes="CPU - Current Context" name="ble_app_hrs_pca10056_s140" decimalNodes="" octalNodes="" unsignedNodes=""/>
+ </Register4>
+ <Threads>
+  <ThreadsWindow showLists=""/>
+ </Threads>
+ <TraceWindow>
+  <Trace enabled="Yes"/>
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Never"/>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never"/>
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never"/>
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never"/>
+ </Watch4>
+ <Files>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="872" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.c" selected="0" top="850" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="25" y="146" useTextEdit="1" openedFrom="C:/Users/benja/OneDrive/Documents/Apnea Firmware/nRF5_SDK_17.1.0_ddde560/components/ble/ble_services/ble_hrs/ble_hrs.c" useBinaryEdit="0" left="0" path="../../../../../../components/ble/ble_services/ble_hrs/ble_hrs.h" selected="0" top="135" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="28" y="120" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../integration/nrfx/legacy/nrf_drv_twi.h" selected="0" top="86" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="1913" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../Sensor Hub/max32664.c" selected="0" top="1963" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="13" y="1115" useTextEdit="1" openedFrom="C:/Users/benja/OneDrive/Documents/Apnea Firmware/nRF5_SDK_17.1.0_ddde560/integration/nrfx/legacy/nrf_drv_twi.h" useBinaryEdit="0" left="0" path="../../../../../../integration/nrfx/legacy/apply_old_config.h" selected="0" top="1095" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="4" y="61" useTextEdit="1" openedFrom="C:/Users/benja/OneDrive/Documents/Apnea Firmware/nRF5_SDK_17.1.0_ddde560/examples/My Projects/BLE Max Test/main.c" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/sensorsim/sensorsim.c" selected="0" top="38" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="99" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/util/app_error_weak.c" selected="1" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="4" y="190" useTextEdit="1" openedFrom="C:/Users/benja/OneDrive/Documents/Apnea Firmware/nRF5_SDK_17.1.0_ddde560/examples/My Projects/BLE Max Test/main.c" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/timer/app_timer.h" selected="0" top="167" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="28" y="86" useTextEdit="1" openedFrom="C:/Users/benja/OneDrive/Documents/Apnea Firmware/nRF5_SDK_17.1.0_ddde560/components/ble/ble_services/ble_apneas/ble_apneas.c" useBinaryEdit="0" left="0" path="../../../../../../components/ble/common/ble_srv_common.h" selected="0" top="56" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" openedFrom="C:/Users/benja/OneDrive/Documents/Apnea Firmware/nRF5_SDK_17.1.0_ddde560/examples/My Projects/BLE Max Test/main.c" useBinaryEdit="0" left="0" path="../../../../../../components/ble/ble_services/ble_bas/ble_bas.h" selected="0" top="66" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="19" y="77" useTextEdit="1" openedFrom="C:/Users/benja/OneDrive/Documents/Apnea Firmware/nRF5_SDK_17.1.0_ddde560/examples/My Projects/BLE Max Test/main.c" useBinaryEdit="0" left="0" path="../../../../../../components/ble/ble_services/ble_dis/ble_dis.h" selected="0" top="48" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../components/ble/ble_services/ble_dis/ble_dis.c" selected="0" top="34" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="305" useTextEdit="1" openedFrom="C:/Users/benja/OneDrive/Documents/Apnea Firmware/nRF5_SDK_17.1.0_ddde560/examples/My Projects/BLE Max Test/main.c" useBinaryEdit="0" left="0" path="../../../../../../components/ble/ble_services/ble_hrs/ble_hrs.c" selected="0" top="351" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="38" y="11698" useTextEdit="1" openedFrom="C:/Users/benja/OneDrive/Documents/Apnea Firmware/nRF5_SDK_17.1.0_ddde560/components/ble/ble_services/ble_spos/ble_spos.h" useBinaryEdit="0" left="0" path="../config/sdk_config.h" selected="0" top="11665" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="2" y="282" useTextEdit="1" openedFrom="C:/Users/benja/OneDrive/Documents/Apnea Firmware/nRF5_SDK_17.1.0_ddde560/components/ble/ble_services/ble_hrs/ble_hrs.h" useBinaryEdit="0" left="0" path="../../../../../../components/softdevice/s140/headers/ble_gatts.h" selected="0" top="257" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="759" useTextEdit="1" openedFrom="C:/Users/benja/OneDrive/Documents/Apnea Firmware/nRF5_SDK_17.1.0_ddde560/examples/My Projects/BLE Max Test/main.c" useBinaryEdit="0" left="0" path="../../../../Sensor Hub/max32664.h" selected="0" top="750" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="447" useTextEdit="1" openedFrom="C:/Users/benja/OneDrive/Documents/Apnea Firmware/nRF5_SDK_17.1.0_ddde560/examples/My Projects/BLE Max Test 12-1-21/main.c" useBinaryEdit="0" left="0" path="../../../../../../components/ble/ble_services/ble_apneas/ble_apneas.c" selected="0" top="445" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="20" y="174" useTextEdit="1" openedFrom="C:/Users/benja/OneDrive/Documents/Apnea Firmware/nRF5_SDK_17.1.0_ddde560/components/ble/ble_services/ble_apneas/ble_apneas.c" useBinaryEdit="0" left="0" path="../../../../../../components/ble/ble_services/ble_apneas/ble_apneas.h" selected="0" top="118" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="2" y="64" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../components/ble/common/ble_conn_params.h" selected="0" top="23" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="68" y="65" useTextEdit="1" openedFrom="C:/Users/benja/OneDrive/Documents/Apnea Firmware/nRF5_SDK_17.1.0_ddde560/components/ble/ble_services/ble_apneas/ble_apneas.c" useBinaryEdit="0" left="0" path="../../../../../../components/softdevice/s140/headers/nrf_error.h" selected="0" top="39" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="324" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/timer/app_timer2.c" selected="0" top="302" codecName=""/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="72" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/util/app_error.c" selected="0" top="50" codecName=""/>
+ </Files>
+ <ARMCrossStudioWindow activeProject="ble_app_hrs_pca10056_s140" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Release" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="C:/Users/benja/OneDrive/Documents/Apnea Firmware/nRF5_SDK_17.1.0_ddde560/components/ble/ble_services/ble_apneas" debugSearchPath="" autoConnectCapabilities="3711"/>
+</session>
