@@ -705,13 +705,13 @@ static void printData()
 {
   if(flag){
     for(size_t i = 0; i < 1024; i++){
-      printf("%p ",&buff1[i]);
+      printf("%p ",buff1[i]);
       writeFlag = 0;
     }
   }
   else{
     for(size_t i = 0; i < 1024; i++){
-      printf("%p ",&buff2[i]);
+      printf("%p ",buff2[i]);
       writeFlag = 0;
     }
   }
@@ -720,24 +720,29 @@ static void printData()
 
 static void drv_pdm_hand(const nrfx_pdm_evt_t *evt){
 
-  int32_t error;
+  nrfx_err_t error = 0;
   if((*evt).buffer_requested){
+    error = nrfx_pdm_start();
     if(!flag){
       error = nrfx_pdm_buffer_set(buff1, 1024);
+      if(error) {
+        printf("Handler Error1: %d ",error);
+      } else{
+        printf("buff1 set ");
+      }
       flag = 1;
       writeFlag = 1;}
     else{
       error = nrfx_pdm_buffer_set(buff2, 1024);
+      if(error) {
+        printf("Handler Error2: %d ",error);
+      } else{
+        printf("buff2 set ");
+      }
       flag = 0;
       writeFlag = 1;
     }
-    NRF_LOG_INFO("Error: %d",error);
     
-    for(size_t i = 0; i < 7; i++){
-      printf("%d ",buff1[i]);
-    }
-
-    printf("\r\n");
   }
 }
 
@@ -765,11 +770,19 @@ int main(void)
     NRF_LOG_INFO("\r\nDebug logging for UART over RTT started.\r\n");
     advertising_start();
 
-    uint32_t error = 0;
+    nrfx_err_t error = 0;
     nrfx_pdm_config_t config1 = NRFX_PDM_DEFAULT_CONFIG(_pin_clk, _pin_din);
     error = nrfx_pdm_init(&config1, drv_pdm_hand);
+
+    if(error) {
+      printf("Init Error: %d",error);
+    }
+
     error = nrfx_pdm_start();
-    NRF_LOG_INFO("%d",error);
+
+    if(error) {
+      printf("Start Error: %d",error);
+    }
 
     // Enter main loop.
     for (;;)
