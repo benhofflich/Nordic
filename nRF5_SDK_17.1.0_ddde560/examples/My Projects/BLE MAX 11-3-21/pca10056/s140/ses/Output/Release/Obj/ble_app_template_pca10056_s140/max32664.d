@@ -1,9 +1,9 @@
 Output/Release/Obj/ble_app_template_pca10056_s140/max32664.o: \
- C:\Users\benja\OneDrive\Documents\Apnea\ Firmware\nRF5_SDK_17.1.0_ddde560\examples\My\ Projects\Sensor\ Hub\max32664.c \
+ C:\Users\benja\OneDrive\Documents\GitHub\Nordic\nRF5_SDK_17.1.0_ddde560\examples\My\ Projects\Sensor\ Hub\max32664.c \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.62/include/stdint.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.62/include/stdlib.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.62/include/__crossworks.h \
- C:\Users\benja\OneDrive\Documents\Apnea\ Firmware\nRF5_SDK_17.1.0_ddde560\examples\My\ Projects\Sensor\ Hub\max32664.h \
+ C:\Users\benja\OneDrive\Documents\GitHub\Nordic\nRF5_SDK_17.1.0_ddde560\examples\My\ Projects\Sensor\ Hub\max32664.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.62/include/stdio.h \
  ../../../../../../modules/nrfx/mdk/nrf.h \
  ../../../../../../modules/nrfx/mdk/nrf52840.h \

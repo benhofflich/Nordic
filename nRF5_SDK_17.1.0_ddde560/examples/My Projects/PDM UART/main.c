@@ -56,6 +56,7 @@
 #include "nrf.h"
 #include "bsp.h"
 #include "nrfx_pdm.h"
+#include "nrf_pdm.h"
 #include "nrfx_gpiote.h"
 #if defined (UART_PRESENT)
 #include "nrf_uart.h"
@@ -64,10 +65,10 @@
 #include "nrf_uarte.h"
 #endif
 
-#define CONFIG_PDM_CLK NRF_GPIO_PIN_MAP(0,18)
-#define CONFIG_PDM_DATA NRF_GPIO_PIN_MAP(0,16)
+#define _pin_clk NRF_GPIO_PIN_MAP(0,18)
+#define _pin_din NRF_GPIO_PIN_MAP(0,16)
 
-int16_t buff1[1024];
+int32_t buff1[1024];
 int16_t buff2[1024];
 bool flag = 0;
 bool writeFlag = 0;
@@ -142,6 +143,7 @@ static void uart_loopback_test()
 static void drv_pdm_hand(const nrfx_pdm_evt_t *evt){
 
   nrfx_err_t error = 0;
+  error = nrfx_pdm_buffer_set(buff2, 1024);
   /*if((*evt).buffer_requested){
     if(!flag){
       error = nrfx_pdm_buffer_set(buff1, 1024);
@@ -170,11 +172,24 @@ static void audio_init()
 {
   ret_code_t err;
   nrfx_pdm_config_t config1 = NRFX_PDM_DEFAULT_CONFIG(18, 16);
+
+  nrf_pdm_psel_connect(_pin_clk, _pin_din);
+  nrf_pdm_clock_set(NRF_PDM_FREQ_1032K);
+  nrf_pdm_mode_set(PDM_CONFIG_MODE, PDM_CONFIG_EDGE);
+  nrf_pdm_gain_set(NRF_PDM_GAIN_DEFAULT, NRF_PDM_GAIN_DEFAULT);
+  nrf_pdm_buffer_set(buff1,1024);
+
+  NRF_PDM->PSEL.CLK = (_pin_clk << PDM_PSEL_CLK_PIN_Pos) | (PDM_PSEL_CLK_CONNECT_Connected << PDM_PSEL_CLK_CONNECT_Pos);
+  NRF_PDM->PSEL.DIN = (_pin_din << PDM_PSEL_DIN_PIN_Pos) | (PDM_PSEL_DIN_CONNECT_Connected << PDM_PSEL_DIN_CONNECT_Pos);
+
+  nrf_pdm_enable();
   err = nrfx_pdm_init(&config1, drv_pdm_hand);
   APP_ERROR_CHECK(err);
 
   err = nrfx_pdm_start();
   APP_ERROR_CHECK(err);
+
+  NRF_PDM->TASKS_START = 1;
 }
 
 /**

@@ -54,6 +54,7 @@
 #include "nordic_common.h"
 #include "nrf.h"
 #include "nrfx_pdm.h"
+#include "nrf_pdm.h"
 #include "ble_hci.h"
 #include "ble_advdata.h"
 #include "ble_advertising.h"
@@ -81,8 +82,8 @@
 #include "nrf_log_ctrl.h"
 #include "nrf_log_default_backends.h"
 
-#define _pin_clk 18
-#define _pin_din 16
+#define _pin_clk 16
+#define _pin_din 14
 
 int16_t buff1[1024];
 int16_t buff2[1024];
@@ -778,11 +779,20 @@ int main(void)
       printf("Init Error: %d",error);
     }
 
-    error = nrfx_pdm_start();
+    //error = nrfx_pdm_start();
 
     if(error) {
       printf("Start Error: %d",error);
     }
+
+    NRF_PDM->PSEL.CLK = (_pin_clk << PDM_PSEL_CLK_PIN_Pos) | (PDM_PSEL_CLK_CONNECT_Connected << PDM_PSEL_CLK_CONNECT_Pos);
+    NRF_PDM->PSEL.DIN = (_pin_din << PDM_PSEL_DIN_PIN_Pos) | (PDM_PSEL_DIN_CONNECT_Connected << PDM_PSEL_DIN_CONNECT_Pos);
+			
+		NRF_PDM->PDMCLKCTRL = (PDM_PDMCLKCTRL_FREQ_Default << PDM_PDMCLKCTRL_FREQ_Pos);
+		
+		NRF_PDM->ENABLE = (PDM_ENABLE_ENABLE_Enabled << PDM_ENABLE_ENABLE_Pos);
+    
+		NRF_PDM->TASKS_START = 1;
 
     // Enter main loop.
     for (;;)

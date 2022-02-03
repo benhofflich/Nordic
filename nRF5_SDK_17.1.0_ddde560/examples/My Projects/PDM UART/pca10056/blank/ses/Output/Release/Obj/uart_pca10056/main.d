@@ -51,6 +51,7 @@ Output/Release/Obj/uart_pca10056/main.o: \
  ../../../../../../components/boards/pca10056.h \
  ../../../../../../modules/nrfx/drivers/include/nrfx_pdm.h \
  ../../../../../../modules/nrfx/hal/nrf_pdm.h \
+ ../../../../../../modules/nrfx/hal/nrf_pdm.h \
  ../../../../../../modules/nrfx/drivers/include/nrfx_gpiote.h \
  ../../../../../../modules/nrfx/hal/nrf_gpiote.h \
  ../../../../../../modules/nrfx/hal/nrf_gpio.h \

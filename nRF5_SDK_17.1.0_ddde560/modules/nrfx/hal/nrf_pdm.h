@@ -421,6 +421,7 @@ __STATIC_INLINE void nrf_pdm_psel_connect(uint32_t psel_clk, uint32_t psel_din)
 {
     NRF_PDM->PSEL.CLK = psel_clk;
     NRF_PDM->PSEL.DIN = psel_din;
+
 }
 
 __STATIC_INLINE void nrf_pdm_psel_disconnect(void)

@@ -54,6 +54,7 @@ Output/Release/Obj/ble_app_uart_pca10056_s140/main.o: \
  ../../../../../../components/softdevice/s140/headers/nrf_soc.h \
  ../../../../../../modules/nrfx/drivers/nrfx_errors.h \
  ../../../../../../modules/nrfx/hal/nrf_pdm.h \
+ ../../../../../../modules/nrfx/hal/nrf_pdm.h \
  ../../../../../../components/softdevice/s140/headers/ble_hci.h \
  ../../../../../../components/ble/common/ble_advdata.h \
  ../../../../../../components/softdevice/s140/headers/ble.h \
