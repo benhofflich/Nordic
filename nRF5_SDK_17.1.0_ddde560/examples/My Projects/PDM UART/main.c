@@ -129,11 +129,24 @@ static uint8_t m_enc_scan_response_data[BLE_GAP_ADV_SET_DATA_SIZE_MAX];         
 // <o> PDM Microphone Power Control Pin
 #define CONFIG_IO_PDM_MIC_PWR_CTRL 0x07
 
+<<<<<<< Updated upstream
+=======
+int16_t buff1[1024];
+int16_t buff2[1024];
+bool flag = 0;
+bool writeFlag = 0;
+>>>>>>> Stashed changes
 
 /**@brief Audio buffer handler. */
 typedef void (*drv_audio_buffer_handler_t)(int16_t *p_buffer, uint16_t samples);
 
 
+<<<<<<< Updated upstream
+=======
+#define MAX_TEST_DATA_BYTES     (15U)                /**< max number of test bytes to be used for tx and rx. */
+#define UART_TX_BUF_SIZE 1024                         /**< UART TX buffer size. */
+#define UART_RX_BUF_SIZE 1024                         /**< UART RX buffer size. */
+>>>>>>> Stashed changes
 
 static int16_t                      m_pdm_buff[2][CONFIG_PDM_BUFFER_SIZE_SAMPLES];
 
@@ -379,6 +392,7 @@ static void services_init(void)
     err_code = nrf_ble_qwr_init(&m_qwr, &qwr_init);
     APP_ERROR_CHECK(err_code);
 
+<<<<<<< Updated upstream
     // Initialize LBS.
     init.led_write_handler = led_write_handler;
 
@@ -407,6 +421,48 @@ static void on_conn_params_evt(ble_conn_params_evt_t * p_evt)
         err_code = sd_ble_gap_disconnect(m_conn_handle, BLE_HCI_CONN_INTERVAL_UNACCEPTABLE);
         APP_ERROR_CHECK(err_code);
     }
+=======
+        if ((rx_data != tx_data[i]) || (err_code != NRF_SUCCESS))
+        {
+            show_error();
+        }
+    }
+    return;
+}
+#else
+/* When UART is used for communication with the host do not use flow control.*/
+#define UART_HWFC APP_UART_FLOW_CONTROL_DISABLED
+#endif
+
+static void drv_pdm_hand(const nrfx_pdm_evt_t *evt){
+
+  nrfx_err_t error = 0;
+  if((*evt).buffer_requested){
+    if(!flag){
+      error = nrfx_pdm_buffer_set(buff1, 1024);
+      if(error) {
+        printf("Handler Error1: %d ",error);
+      } else{
+        printf("buff1 set ");
+      }
+      flag = 1;
+      writeFlag = 1;
+      error = nrfx_pdm_start();
+    }
+    else{
+      error = nrfx_pdm_buffer_set(buff2, 1024);
+      if(error) {
+        printf("Handler Error2: %d ",error);
+      } else{
+        printf("buff2 set ");
+      }
+      flag = 0;
+      writeFlag = 1;
+      error = nrfx_pdm_start();
+    }
+    
+  }
+>>>>>>> Stashed changes
 }
 
 
