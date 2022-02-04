@@ -63,7 +63,7 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="727" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.c" selected="1" top="716" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="14" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.c" selected="1" top="246" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="52" y="164" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../components/ble/ble_services/ble_hrs/ble_hrs.c" selected="0" top="179" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="15" y="11647" useTextEdit="1" openedFrom="C:/Users/benja/OneDrive/Documents/Apnea Firmware/nRF5_SDK_17.1.0_ddde560/components/ble/ble_services/ble_hrs/ble_hrs.h" useBinaryEdit="0" left="0" path="../config/sdk_config.h" selected="0" top="11628" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="20" y="120" useTextEdit="1" openedFrom="C:/Users/benja/OneDrive/Documents/Apnea Firmware/nRF5_SDK_17.1.0_ddde560/examples/My Projects/Sensor Hub/max32664.c" useBinaryEdit="0" left="0" path="../../../../../../integration/nrfx/legacy/nrf_drv_twi.h" selected="0" top="110" codecName="Default"/>
@@ -82,5 +82,5 @@
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="87" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/log/src/nrf_log_backend_uart.c" selected="0" top="65" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="24" y="1063" useTextEdit="1" openedFrom="C:/Users/benja/OneDrive/Documents/Apnea Firmware/nRF5_SDK_17.1.0_ddde560/components/ble/ble_services/ble_ppgs/ble_ppgs.c" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/util/app_util.h" selected="0" top="1027" codecName="Default"/>
  </Files>
- <ARMCrossStudioWindow activeProject="ble_app_template_pca10056_s140" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Release" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="C:/Users/benja/OneDrive/Documents/Apnea Firmware/nRF5_SDK_17.1.0_ddde560/modules/nrfx/drivers/src" debugSearchPath="" autoConnectCapabilities="3711"/>
+ <ARMCrossStudioWindow activeProject="ble_app_template_pca10056_s140" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Release" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="C:/Users/benja/OneDrive/Documents/Apnea Firmware/nRF5_SDK_17.1.0_ddde560/modules/nrfx/drivers/src" debugSearchPath="" autoConnectCapabilities="3199"/>
 </session>

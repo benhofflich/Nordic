@@ -64,8 +64,8 @@
 #include "nrf_log_default_backends.h"
 
 #include "nrfx_pdm.h"
-#define _pin_clk 18
-#define _pin_din 16
+#define _pin_clk 5
+#define _pin_din 6
 
 
 #define FILE_NAME   "NORDIC.pcm"
