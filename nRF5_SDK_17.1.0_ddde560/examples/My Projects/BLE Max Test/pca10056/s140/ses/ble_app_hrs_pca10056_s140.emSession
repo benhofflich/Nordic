@@ -1,12 +1,12 @@
 <!DOCTYPE CrossStudio_Session_File>
 <session>
  <Bookmarks>
-  <BookmarkItem objectName="" line="788" column="-1" path="C:/Users/benja/OneDrive/Documents/Apnea Firmware/nRF5_SDK_17.1.0_ddde560/examples/My Projects/BLE Max Test/main.c" number="5" extra="init.advdata.uuids_complete.uuid_cnt = sizeof(m_adv_uuids) / sizeof(m_adv_uuids[0]);" color="5"/>
+  <BookmarkItem objectName="" line="789" column="-1" path="C:/Users/benja/OneDrive/Documents/Apnea Firmware/nRF5_SDK_17.1.0_ddde560/examples/My Projects/BLE Max Test/main.c" number="6" extra="init.advdata.uuids_complete.p_uuids = m_adv_uuids;" color="5"/>
   <BookmarkItem objectName="" line="134" column="-1" path="C:/Users/benja/OneDrive/Documents/Apnea Firmware/nRF5_SDK_17.1.0_ddde560/examples/My Projects/BLE Max Test/main.c" number="1" extra="static ble_uuid_t m_adv_uuids[] = /**&lt; Universally unique service identifiers. */" color="5"/>
   <BookmarkItem objectName="" line="136" column="-1" path="C:/Users/benja/OneDrive/Documents/Apnea Firmware/nRF5_SDK_17.1.0_ddde560/examples/My Projects/BLE Max Test/main.c" number="2" extra="{BLE_UUID_HEART_RATE_SERVICE, BLE_UUID_TYPE_BLE}," color="5"/>
   <BookmarkItem objectName="" line="137" column="-1" path="C:/Users/benja/OneDrive/Documents/Apnea Firmware/nRF5_SDK_17.1.0_ddde560/examples/My Projects/BLE Max Test/main.c" number="3" extra="{BLE_UUID_PLX_SERVICE, BLE_UUID_TYPE_BLE}," color="5"/>
   <BookmarkItem objectName="" line="138" column="-1" path="C:/Users/benja/OneDrive/Documents/Apnea Firmware/nRF5_SDK_17.1.0_ddde560/examples/My Projects/BLE Max Test/main.c" number="4" extra="{BLE_UUID_DEVICE_INFORMATION_SERVICE, BLE_UUID_TYPE_BLE}" color="5"/>
-  <BookmarkItem objectName="" line="789" column="-1" path="C:/Users/benja/OneDrive/Documents/Apnea Firmware/nRF5_SDK_17.1.0_ddde560/examples/My Projects/BLE Max Test/main.c" number="6" extra="init.advdata.uuids_complete.p_uuids = m_adv_uuids;" color="5"/>
+  <BookmarkItem objectName="" line="788" column="-1" path="C:/Users/benja/OneDrive/Documents/Apnea Firmware/nRF5_SDK_17.1.0_ddde560/examples/My Projects/BLE Max Test/main.c" number="5" extra="init.advdata.uuids_complete.uuid_cnt = sizeof(m_adv_uuids) / sizeof(m_adv_uuids[0]);" color="5"/>
  </Bookmarks>
  <Breakpoints groups="Breakpoints" active_group="Breakpoints"/>
  <ExecutionProfileWindow/>
@@ -66,7 +66,7 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="765" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.c" selected="1" top="790" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="765" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.c" selected="1" top="766" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="25" y="146" useTextEdit="1" openedFrom="C:/Users/benja/OneDrive/Documents/Apnea Firmware/nRF5_SDK_17.1.0_ddde560/components/ble/ble_services/ble_hrs/ble_hrs.c" useBinaryEdit="0" left="0" path="../../../../../../components/ble/ble_services/ble_hrs/ble_hrs.h" selected="0" top="135" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="28" y="120" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../integration/nrfx/legacy/nrf_drv_twi.h" selected="0" top="86" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="1913" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../Sensor Hub/max32664.c" selected="0" top="1880" codecName="Default"/>
@@ -81,7 +81,7 @@
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="305" useTextEdit="1" openedFrom="C:/Users/benja/OneDrive/Documents/Apnea Firmware/nRF5_SDK_17.1.0_ddde560/examples/My Projects/BLE Max Test/main.c" useBinaryEdit="0" left="0" path="../../../../../../components/ble/ble_services/ble_hrs/ble_hrs.c" selected="0" top="259" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="6" y="11686" useTextEdit="1" openedFrom="C:/Users/benja/OneDrive/Documents/Apnea Firmware/nRF5_SDK_17.1.0_ddde560/components/ble/ble_services/ble_spos/ble_spos.h" useBinaryEdit="0" left="0" path="../config/sdk_config.h" selected="0" top="11669" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="2" y="282" useTextEdit="1" openedFrom="C:/Users/benja/OneDrive/Documents/Apnea Firmware/nRF5_SDK_17.1.0_ddde560/components/ble/ble_services/ble_hrs/ble_hrs.h" useBinaryEdit="0" left="0" path="../../../../../../components/softdevice/s140/headers/ble_gatts.h" selected="0" top="257" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="759" useTextEdit="1" openedFrom="C:/Users/benja/OneDrive/Documents/Apnea Firmware/nRF5_SDK_17.1.0_ddde560/examples/My Projects/BLE Max Test/main.c" useBinaryEdit="0" left="0" path="../../../../Sensor Hub/max32664.h" selected="0" top="750" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="14" y="821" useTextEdit="1" openedFrom="C:/Users/benja/OneDrive/Documents/Apnea Firmware/nRF5_SDK_17.1.0_ddde560/examples/My Projects/BLE Max Test/main.c" useBinaryEdit="0" left="0" path="../../../../Sensor Hub/max32664.h" selected="0" top="0" codecName="Default"/>
  </Files>
  <ARMCrossStudioWindow activeProject="ble_app_hrs_pca10056_s140" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Release" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="C:/Users/benja/OneDrive/Documents/Apnea Firmware/nRF5_SDK_17.1.0_ddde560/components/ble/ble_services/ble_spos" debugSearchPath="" autoConnectCapabilities="3199"/>
 </session>

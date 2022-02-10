@@ -3,8 +3,8 @@
 #include "nrf_delay.h"
 
 //I2C Pins Settings, you change them to any other pins
-#define TWI_SCL_M           27         //I2C SCL Pin
-#define TWI_SDA_M           26         //I2C SDA Pin
+#define TWI_SCL_M           15         //I2C SCL Pin
+#define TWI_SDA_M           14         //I2C SDA Pin
 
 
 #define kx132_ADDRESS_LEN  1         //kx132

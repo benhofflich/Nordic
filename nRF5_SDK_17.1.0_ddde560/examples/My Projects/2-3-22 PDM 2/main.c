@@ -64,7 +64,8 @@
 #define _pin_clk NRF_GPIO_PIN_MAP(0,5)
 #define _pin_din NRF_GPIO_PIN_MAP(0,6)
 
-int16_t buff1[512];
+uint16_t buffsize = 1024;
+int16_t buff1[1024];
 int16_t buff2[512];
 bool flag = 0;
 bool writeFlag = 0;
@@ -128,8 +129,14 @@ static void uart_loopback_test()
 static void drv_pdm_hand(const nrfx_pdm_evt_t *evt){
 
   nrfx_err_t error = 0;
+  if((*evt).buffer_released){
+    NRF_LOG_INFO("Released");
+    for(size_t i = 0; i < buffsize; i++){
+        NRF_LOG_INFO("%d",buff1[i]);
+    }
+  }
   if((*evt).buffer_requested){
-    error = nrfx_pdm_buffer_set(buff1, 512);
+    error = nrfx_pdm_buffer_set(buff1, buffsize);
   }
   /*if((*evt).buffer_requested){
     if(!flag){
@@ -195,10 +202,12 @@ int main(void)
     // This part of the example is just for testing the loopback .
     while (true)
     {
-      for(size_t i = 0; i < sizeof(*buff1); i++){
+    NRF_LOG_FLUSH();
+      /*for(size_t i = 0; i < buffsize; i++){
         NRF_LOG_INFO("%d",buff1[i]);
-      }
-      NRF_LOG_FLUSH();
+        NRF_LOG_FLUSH();
+      }*/
+      
     } 
 }
 

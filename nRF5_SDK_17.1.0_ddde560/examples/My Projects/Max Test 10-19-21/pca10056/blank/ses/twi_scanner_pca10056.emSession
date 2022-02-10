@@ -59,13 +59,13 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="69" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.c" selected="1" top="51" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="69" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.c" selected="0" top="51" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="8" y="131" useTextEdit="1" openedFrom="C:/Users/Ben/Documents/Nordic/nRF5_SDK_17.0.2_d674dde/examples/My Projects/Max Test/main.c" useBinaryEdit="0" left="0" path="../../../../../../components/boards/pca10056.h" selected="0" top="120" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="40" y="1605" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../config/sdk_config.h" selected="0" top="1661" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="8" y="108" useTextEdit="1" openedFrom="C:/Users/Ben/Documents/Nordic/nRF5_SDK_17.0.2_d674dde/examples/My Projects/Max Test/main.c" useBinaryEdit="0" left="0" path="../../../../../../integration/nrfx/legacy/nrf_drv_gpiote.h" selected="0" top="95" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="16" y="39" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../components/boards/boards.c" selected="0" top="18" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="43" useTextEdit="1" openedFrom="C:/Users/benja/OneDrive/Documents/Apnea Firmware/nRF5_SDK_17.1.0_ddde560/components/boards/boards.c" useBinaryEdit="0" left="0" path="../../../../../../components/boards/boards.h" selected="0" top="27" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="293" useTextEdit="1" openedFrom="C:/Users/benja/OneDrive/Documents/Apnea Firmware/nRF5_SDK_17.1.0_ddde560/examples/My Projects/Max Test 10-19-21/main.c" useBinaryEdit="0" left="0" path="max32664.c" selected="0" top="1871" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="293" useTextEdit="1" openedFrom="C:/Users/benja/OneDrive/Documents/Apnea Firmware/nRF5_SDK_17.1.0_ddde560/examples/My Projects/Max Test 10-19-21/main.c" useBinaryEdit="0" left="0" path="max32664.c" selected="1" top="1865" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="36" y="758" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="max32664.h" selected="0" top="716" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="99" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/util/app_error_weak.c" selected="0" top="76" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="15" y="69" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/log/src/nrf_log_ctrl_internal.h" selected="0" top="43" codecName="Default"/>

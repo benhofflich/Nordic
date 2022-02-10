@@ -1,0 +1,2993 @@
+# SEGGER J-Link RTT Viewer V6.88a Terminal Log File
+# Compiled: 15:12:58 on Nov 18 2020
+# Logging started @ 03 Feb 2022 22:58:19
+00> <info> app: 14
+00> 
+00> <info> app: 13
+00> 
+00> <info> app: 14
+00> 
+00> <info> app: 13
+00> 
+00> <info> app: 14
+00> 
+00> <info> app: 13
+00> 
+00> <info> app: 14
+00> 
+00> <info> app: 70
+00> 
+00> <info> app: 3
+00> 
+00> <info> app: 5
+00> 
+00> <info> app: 3
+00> 
+00> <info> app: 5
+00> 
+00> <info> app: 3
+00> 
+00> <info> app: 5
+00> 
+00> <info> app: -75
+00> 
+00> <info> app: -70
+00> 
+00> <info> app: -15
+00> 
+00> <info> app: -13
+00> 
+00> <info> app: -15
+00> 
+00> <info> app: -13
+00> 
+00> <info> app: -15
+00> 
+00> <info> app: -13
+00> 
+00> <info> app: -15
+00> 
+00> <info> app: 97
+00> 
+00> <info> app: 108
+00> 
+00> <info> app: 97
+00> 
+00> <info> app: 108
+00> 
+00> <info> app: 97
+00> 
+00> <info> app: 108
+00> 
+00> <info> app: 97
+00> 
+00> <info> app: 108
+00> 
+00> <info> app: 97
+00> 
+00> <info> app: -69
+00> 
+00> <info> app: -64
+00> 
+00> <info> app: -69
+00> 
+00> <info> app: -64
+00> 
+00> <info> app: -69
+00> 
+00> <info> app: -64
+00> 
+00> <info> app: -69
+00> 
+00> <info> app: 26
+00> 
+00> <info> app: 25
+00> 
+00> <info> app: 26
+00> 
+00> <info> app: 25
+00> 
+00> <info> app: 26
+00> 
+00> <info> app: 25
+00> 
+00> <info> app: 26
+00> 
+00> <info> app: 25
+00> 
+00> <info> app: 62
+00> 
+00> <info> app: -3
+00> 
+00> <info> app: 12
+00> 
+00> <info> app: 18
+00> 
+00> <info> app: 12
+00> 
+00> <info> app: 18
+00> 
+00> <info> app: 12
+00> 
+00> <info> app: 18
+00> 
+00> <info> app: 12
+00> 
+00> <info> app: 18
+00> 
+00> <info> app: 12
+00> 
+00> <info> app: 0
+00> 
+00> <info> app: 3
+00> 
+00> <info> app: 1
+00> 
+00> <info> app: -1
+00> 
+00> <info> app: 1
+00> 
+00> <info> app: -1
+00> 
+00> <info> app: 1
+00> 
+00> <info> app: -1
+00> 
+00> <info> app: 1
+00> 
+00> <info> app: -1
+00> 
+00> <info> app: -11
+00> 
+00> <info> app: -8
+00> 
+00> <info> app: -11
+00> 
+00> <info> app: -8
+00> 
+00> <info> app: -11
+00> 
+00> <info> app: -42
+00> 
+00> <info> app: -39
+00> 
+00> <info> app: -42
+00> 
+00> <info> app: -46
+00> 
+00> <info> app: -49
+00> 
+00> <info> app: -21
+00> 
+00> <info> app: -24
+00> 
+00> <info> app: -21
+00> 
+00> <info> app: -24
+00> 
+00> <info> app: -21
+00> 
+00> <info> app: -24
+00> 
+00> <info> app: 61
+00> 
+00> <info> app: 66
+00> 
+00> <info> app: 61
+00> 
+00> <info> app: 66
+00> 
+00> <info> app: 61
+00> 
+00> <info> app: 66
+00> 
+00> <info> app: 24
+00> 
+00> <info> app: 27
+00> 
+00> <info> app: 24
+00> 
+00> <info> app: -8
+00> 
+00> <info> app: -9
+00> 
+00> <info> app: -8
+00> 
+00> <info> app: -9
+00> 
+00> <info> app: -8
+00> 
+00> <info> app: -9
+00> 
+00> <info> app: -8
+00> 
+00> <info> app: -9
+00> 
+00> <info> app: -8
+00> 
+00> <info> app: -32
+00> 
+00> <info> app: -29
+00> 
+00> <info> app: -32
+00> 
+00> <info> app: -29
+00> 
+00> <info> app: -32
+00> 
+00> <info> app: -29
+00> 
+00> <info> app: -32
+00> 
+00> <info> app: -29
+00> 
+00> <info> app: -26
+00> 
+00> <info> app: -8
+00> 
+00> <info> app: -7
+00> 
+00> <info> app: -8
+00> 
+00> <info> app: -7
+00> 
+00> <info> app: -8
+00> 
+00> <info> app: -7
+00> 
+00> <info> app: 51
+00> 
+00> <info> app: 54
+00> 
+00> <info> app: 51
+00> 
+00> <info> app: 54
+00> 
+00> <info> app: 51
+00> 
+00> <info> app: 54
+00> 
+00> <info> app: 51
+00> 
+00> <info> app: -38
+00> 
+00> <info> app: -39
+00> 
+00> <info> app: -38
+00> 
+00> <info> app: -9
+00> 
+00> <info> app: -4
+00> 
+00> <info> app: -9
+00> 
+00> <info> app: -4
+00> 
+00> <info> app: -9
+00> 
+00> <info> app: -4
+00> 
+00> <info> app: -9
+00> 
+00> <info> app: -4
+00> 
+00> <info> app: -9
+00> 
+00> <info> app: -4
+00> 
+00> <info> app: -22
+00> 
+00> <info> app: -105
+00> 
+00> <info> app: -22
+00> 
+00> <info> app: -105
+00> 
+00> <info> app: -22
+00> 
+00> <info> app: -105
+00> 
+00> <info> app: -22
+00> 
+00> <info> app: -105
+00> 
+00> <info> app: -191
+00> 
+00> <info> app: -206
+00> 
+00> <info> app: -191
+00> 
+00> <info> app: -206
+00> 
+00> <info> app: -191
+00> 
+00> <info> app: -206
+00> 
+00> <info> app: -191
+00> 
+00> <info> app: -206
+00> 
+00> <info> app: -191
+00> 
+00> <info> app: 221
+00> 
+00> <info> app: 253
+00> 
+00> <info> app: 221
+00> 
+00> <info> app: 253
+00> 
+00> <info> app: 221
+00> 
+00> <info> app: 253
+00> 
+00> <info> app: 221
+00> 
+00> <info> app: 253
+00> 
+00> <info> app: 221
+00> 
+00> <info> app: 240
+00> 
+00> <info> app: 120
+00> 
+00> <info> app: -18
+00> 
+00> <info> app: -22
+00> 
+00> <info> app: -18
+00> 
+00> <info> app: -22
+00> 
+00> <info> app: -18
+00> 
+00> <info> app: 78
+00> 
+00> <info> app: 70
+00> 
+00> <info> app: 78
+00> 
+00> <info> app: 70
+00> 
+00> <info> app: 78
+00> 
+00> <info> app: 70
+00> 
+00> <info> app: 78
+00> 
+00> <info> app: 70
+00> 
+00> <info> app: 78
+00> 
+00> <info> app: -178
+00> 
+00> <info> app: -178
+00> 
+00> <info> app: -178
+00> 
+00> <info> app: -178
+00> 
+00> <info> app: -178
+00> 
+00> <info> app: -178
+00> 
+00> <info> app: -178
+00> 
+00> <info> app: -178
+00> 
+00> <info> app: -178
+00> 
+00> <info> app: -175
+00> 
+00> <info> app: -179
+00> 
+00> <info> app: -175
+00> 
+00> <info> app: -179
+00> 
+00> <info> app: -72
+00> 
+00> <info> app: -66
+00> 
+00> <info> app: -72
+00> 
+00> <info> app: -66
+00> 
+00> <info> app: -72
+00> 
+00> <info> app: 275
+00> 
+00> <info> app: 376
+00> 
+00> <info> app: 275
+00> 
+00> <info> app: 376
+00> 
+00> <info> app: 275
+00> 
+00> <info> app: 376
+00> 
+00> <info> app: 275
+00> 
+00> <info> app: -116
+00> 
+00> <info> app: 171
+00> 
+00> <info> app: 177
+00> 
+00> <info> app: 171
+00> 
+00> <info> app: 177
+00> 
+00> <info> app: 171
+00> 
+00> <info> app: 177
+00> 
+00> <info> app: 171
+00> 
+00> <info> app: 4
+00> 
+00> <info> app: 171
+00> 
+00> <info> app: 4
+00> 
+00> <info> app: -126
+00> 
+00> <info> app: -124
+00> 
+00> <info> app: -126
+00> 
+00> <info> app: -124
+00> 
+00> <info> app: -126
+00> 
+00> <info> app: -124
+00> 
+00> <info> app: -126
+00> 
+00> <info> app: -25
+00> 
+00> <info> app: -19
+00> 
+00> <info> app: -25
+00> 
+00> <info> app: -19
+00> 
+00> <info> app: -25
+00> 
+00> <info> app: -19
+00> 
+00> <info> app: -25
+00> 
+00> <info> app: -19
+00> 
+00> <info> app: -25
+00> 
+00> <info> app: -88
+00> 
+00> <info> app: -29
+00> 
+00> <info> app: -28
+00> 
+00> <info> app: -29
+00> 
+00> <info> app: -28
+00> 
+00> <info> app: -29
+00> 
+00> <info> app: -28
+00> 
+00> <info> app: -29
+00> 
+00> <info> app: -28
+00> 
+00> <info> app: -46
+00> 
+00> <info> app: -41
+00> 
+00> <info> app: -46
+00> 
+00> <info> app: -41
+00> 
+00> <info> app: -46
+00> 
+00> <info> app: -80
+00> 
+00> <info> app: -73
+00> 
+00> <info> app: -80
+00> 
+00> <info> app: -73
+00> 
+00> <info> app: -54
+00> 
+00> <info> app: -56
+00> 
+00> <info> app: -54
+00> 
+00> <info> app: -56
+00> 
+00> <info> app: -54
+00> 
+00> <info> app: -56
+00> 
+00> <info> app: -54
+00> 
+00> <info> app: -56
+00> 
+00> <info> app: -14
+00> 
+00> <info> app: -10
+00> 
+00> <info> app: -14
+00> 
+00> <info> app: -10
+00> 
+00> <info> app: -14
+00> 
+00> <info> app: -10
+00> 
+00> <info> app: -14
+00> 
+00> <info> app: -10
+00> 
+00> <info> app: -14
+00> 
+00> <info> app: -22
+00> 
+00> <info> app: -20
+00> 
+00> <info> app: -22
+00> 
+00> <info> app: -20
+00> 
+00> <info> app: -22
+00> 
+00> <info> app: -20
+00> 
+00> <info> app: -22
+00> 
+00> <info> app: 24
+00> 
+00> <info> app: 23
+00> 
+00> <info> app: 24
+00> 
+00> <info> app: 23
+00> 
+00> <info> app: 24
+00> 
+00> <info> app: 23
+00> 
+00> <info> app: 24
+00> 
+00> <info> app: 23
+00> 
+00> <info> app: 24
+00> 
+00> <info> app: -37
+00> 
+00> <info> app: -41
+00> 
+00> <info> app: -37
+00> 
+00> <info> app: -41
+00> 
+00> <info> app: -5
+00> 
+00> <info> app: -41
+00> 
+00> <info> app: -5
+00> 
+00> <info> app: -3
+00> 
+00> <info> app: 2
+00> 
+00> <info> app: 7
+00> 
+00> <info> app: 2
+00> 
+00> <info> app: 7
+00> 
+00> <info> app: 2
+00> 
+00> <info> app: 7
+00> 
+00> <info> app: 2
+00> 
+00> <info> app: 7
+00> 
+00> <info> app: 2
+00> 
+00> <info> app: 20
+00> 
+00> <info> app: 27
+00> 
+00> <info> app: 20
+00> 
+00> <info> app: 27
+00> 
+00> <info> app: 20
+00> 
+00> <info> app: 27
+00> 
+00> <info> app: 20
+00> 
+00> <info> app: 27
+00> 
+00> <info> app: 23
+00> 
+00> <info> app: 24
+00> 
+00> <info> app: 23
+00> 
+00> <info> app: 24
+00> 
+00> <info> app: 23
+00> 
+00> <info> app: 24
+00> 
+00> <info> app: 23
+00> 
+00> <info> app: 24
+00> 
+00> <info> app: 23
+00> 
+00> <info> app: 18
+00> 
+00> <info> app: 24
+00> 
+00> <info> app: 8
+00> 
+00> <info> app: 10
+00> 
+00> <info> app: 8
+00> 
+00> <info> app: 10
+00> 
+00> <info> app: 8
+00> 
+00> <info> app: 10
+00> 
+00> <info> app: 8
+00> 
+00> <info> app: 10
+00> 
+00> <info> app: 10
+00> 
+00> <info> app: 6
+00> 
+00> <info> app: 10
+00> 
+00> <info> app: 6
+00> 
+00> <info> app: 10
+00> 
+00> <info> app: 6
+00> 
+00> <info> app: 10
+00> 
+00> <info> app: 6
+00> 
+00> <info> app: 10
+00> 
+00> <info> app: 6
+00> 
+00> <info> app: -31
+00> 
+00> <info> app: -36
+00> 
+00> <info> app: -31
+00> 
+00> <info> app: -36
+00> 
+00> <info> app: -31
+00> 
+00> <info> app: -36
+00> 
+00> <info> app: -31
+00> 
+00> <info> app: -36
+00> 
+00> <info> app: 38
+00> 
+00> <info> app: 39
+00> 
+00> <info> app: 38
+00> 
+00> <info> app: 39
+00> 
+00> <info> app: 38
+00> 
+00> <info> app: 39
+00> 
+00> <info> app: 38
+00> 
+00> <info> app: 39
+00> 
+00> <info> app: 22
+00> 
+00> <info> app: 19
+00> 
+00> <info> app: 22
+00> 
+00> <info> app: 19
+00> 
+00> <info> app: 22
+00> 
+00> <info> app: 19
+00> 
+00> <info> app: 22
+00> 
+00> <info> app: 19
+00> 
+00> <info> app: 22
+00> 
+00> <info> app: 14
+00> 
+00> <info> app: 13
+00> 
+00> <info> app: 14
+00> 
+00> <info> app: 13
+00> 
+00> <info> app: 14
+00> 
+00> <info> app: 13
+00> 
+00> <info> app: 14
+00> 
+00> <info> app: 13
+00> 
+00> <info> app: 14
+00> 
+00> <info> app: 13
+00> 
+00> <info> app: -28
+00> 
+00> <info> app: -25
+00> 
+00> <info> app: -28
+00> 
+00> <info> app: -25
+00> 
+00> <info> app: -28
+00> 
+00> <info> app: -25
+00> 
+00> <info> app: -28
+00> 
+00> <info> app: -25
+00> 
+00> <info> app: 30
+00> 
+00> <info> app: 27
+00> 
+00> <info> app: -14
+00> 
+00> <info> app: -5
+00> 
+00> <info> app: -14
+00> 
+00> <info> app: -5
+00> 
+00> <info> app: -14
+00> 
+00> <info> app: -5
+00> 
+00> <info> app: 8
+00> 
+00> <info> app: 20
+00> 
+00> <info> app: 8
+00> 
+00> <info> app: 25
+00> 
+00> <info> app: 15
+00> 
+00> <info> app: 25
+00> 
+00> <info> app: 15
+00> 
+00> <info> app: 25
+00> 
+00> <info> app: 15
+00> 
+00> <info> app: 25
+00> 
+00> <info> app: 41
+00> 
+00> <info> app: 44
+00> 
+00> <info> app: 41
+00> 
+00> <info> app: 44
+00> 
+00> <info> app: 41
+00> 
+00> <info> app: 44
+00> 
+00> <info> app: 41
+00> 
+00> <info> app: -8
+00> 
+00> <info> app: -3
+00> 
+00> <info> app: -8
+00> 
+00> <info> app: -20
+00> 
+00> <info> app: -24
+00> 
+00> <info> app: -20
+00> 
+00> <info> app: -24
+00> 
+00> <info> app: -20
+00> 
+00> <info> app: -24
+00> 
+00> <info> app: -20
+00> 
+00> <info> app: -24
+00> 
+00> <info> app: -20
+00> 
+00> <info> app: 16
+00> 
+00> <info> app: 14
+00> 
+00> <info> app: 16
+00> 
+00> <info> app: 14
+00> 
+00> <info> app: 16
+00> 
+00> <info> app: 14
+00> 
+00> <info> app: 16
+00> 
+00> <info> app: 14
+00> 
+00> <info> app: 16
+00> 
+00> <info> app: 12
+00> 
+00> <info> app: 10
+00> 
+00> <info> app: 12
+00> 
+00> <info> app: 10
+00> 
+00> <info> app: 12
+00> 
+00> <info> app: 10
+00> 
+00> <info> app: 12
+00> 
+00> <info> app: 10
+00> 
+00> <info> app: 12
+00> 
+00> <info> app: 10
+00> 
+00> <info> app: 15
+00> 
+00> <info> app: 12
+00> 
+00> <info> app: 15
+00> 
+00> <info> app: 12
+00> 
+00> <info> app: 15
+00> 
+00> <info> app: 12
+00> 
+00> <info> app: 15
+00> 
+00> <info> app: 12
+00> 
+00> <info> app: 15
+00> 
+00> <info> app: 15
+00> 
+00> <info> app: 29
+00> 
+00> <info> app: 35
+00> 
+00> <info> app: 29
+00> 
+00> <info> app: 35
+00> 
+00> <info> app: 29
+00> 
+00> <info> app: 35
+00> 
+00> <info> app: 29
+00> 
+00> <info> app: 35
+00> 
+00> <info> app: 29
+00> 
+00> <info> app: -70
+00> 
+00> <info> app: -70
+00> 
+00> <info> app: -70
+00> 
+00> <info> app: -70
+00> 
+00> <info> app: -70
+00> 
+00> <info> app: -70
+00> 
+00> <info> app: -70
+00> 
+00> <info> app: -70
+00> 
+00> <info> app: 4
+00> 
+00> <info> app: 12
+00> 
+00> <info> app: 4
+00> 
+00> <info> app: 12
+00> 
+00> <info> app: 4
+00> 
+00> <info> app: 12
+00> 
+00> <info> app: 4
+00> 
+00> <info> app: 33
+00> 
+00> <info> app: 35
+00> 
+00> <info> app: 33
+00> 
+00> <info> app: -47
+00> 
+00> <info> app: -56
+00> 
+00> <info> app: -47
+00> 
+00> <info> app: -56
+00> 
+00> <info> app: -47
+00> 
+00> <info> app: -56
+00> 
+00> <info> app: -47
+00> 
+00> <info> app: -47
+00> 
+00> <info> app: -43
+00> 
+00> <info> app: 47
+00> 
+00> <info> app: 34
+00> 
+00> <info> app: 47
+00> 
+00> <info> app: 34
+00> 
+00> <info> app: 47
+00> 
+00> <info> app: 34
+00> 
+00> <info> app: 47
+00> 
+00> <info> app: 34
+00> 
+00> <info> app: 47
+00> 
+00> <info> app: 34
+00> 
+00> <info> app: -34
+00> 
+00> <info> app: -32
+00> 
+00> <info> app: -34
+00> 
+00> <info> app: -32
+00> 
+00> <info> app: -34
+00> 
+00> <info> app: -32
+00> 
+00> <info> app: -34
+00> 
+00> <info> app: -37
+00> 
+00> <info> app: -10
+00> 
+00> <info> app: -15
+00> 
+00> <info> app: -10
+00> 
+00> <info> app: -15
+00> 
+00> <info> app: -10
+00> 
+00> <info> app: -15
+00> 
+00> <info> app: -10
+00> 
+00> <info> app: 16
+00> 
+00> <info> app: 19
+00> 
+00> <info> app: 16
+00> 
+00> <info> app: 19
+00> 
+00> <info> app: 16
+00> 
+00> <info> app: 19
+00> 
+00> <info> app: 35
+00> 
+00> <info> app: 45
+00> 
+00> <info> app: 35
+00> 
+00> <info> app: 45
+00> 
+00> <info> app: 82
+00> 
+00> <info> app: 83
+00> 
+00> <info> app: 82
+00> 
+00> <info> app: 83
+00> 
+00> <info> app: 82
+00> 
+00> <info> app: 57
+00> 
+00> <info> app: 51
+00> 
+00> <info> app: 57
+00> 
+00> <info> app: 57
+00> 
+00> <info> app: 58
+00> 
+00> <info> app: 57
+00> 
+00> <info> app: 58
+00> 
+00> <info> app: 57
+00> 
+00> <info> app: 58
+00> 
+00> <info> app: 57
+00> 
+00> <info> app: 58
+00> 
+00> <info> app: 57
+00> 
+00> <info> app: 4
+00> 
+00> <info> app: 8
+00> 
+00> <info> app: 4
+00> 
+00> <info> app: 8
+00> 
+00> <info> app: 4
+00> 
+00> <info> app: 8
+00> 
+00> <info> app: 4
+00> 
+00> <info> app: 8
+00> 
+00> <info> app: 4
+00> 
+00> <info> app: 42
+00> 
+00> <info> app: 45
+00> 
+00> <info> app: 42
+00> 
+00> <info> app: 45
+00> 
+00> <info> app: 42
+00> 
+00> <info> app: 45
+00> 
+00> <info> app: 42
+00> 
+00> <info> app: 45
+00> 
+00> <info> app: 42
+00> 
+00> <info> app: 53
+00> 
+00> <info> app: 52
+00> 
+00> <info> app: 53
+00> 
+00> <info> app: -33
+00> 
+00> <info> app: -26
+00> 
+00> <info> app: -33
+00> 
+00> <info> app: -26
+00> 
+00> <info> app: -33
+00> 
+00> <info> app: -26
+00> 
+00> <info> app: 15
+00> 
+00> <info> app: -32
+00> 
+00> <info> app: -38
+00> 
+00> <info> app: -32
+00> 
+00> <info> app: -38
+00> 
+00> <info> app: -32
+00> 
+00> <info> app: -38
+00> 
+00> <info> app: -32
+00> 
+00> <info> app: -38
+00> 
+00> <info> app: -11
+00> 
+00> <info> app: -7
+00> 
+00> <info> app: -11
+00> 
+00> <info> app: -7
+00> 
+00> <info> app: -11
+00> 
+00> <info> app: -7
+00> 
+00> <info> app: -11
+00> 
+00> <info> app: -24
+00> 
+00> <info> app: -67
+00> 
+00> <info> app: -62
+00> 
+00> <info> app: -67
+00> 
+00> <info> app: -62
+00> 
+00> <info> app: -67
+00> 
+00> <info> app: -62
+00> 
+00> <info> app: -67
+00> 
+00> <info> app: 0
+00> 
+00> <info> app: 3
+00> 
+00> <info> app: 29
+00> 
+00> <info> app: 23
+00> 
+00> <info> app: 29
+00> 
+00> <info> app: 23
+00> 
+00> <info> app: 29
+00> 
+00> <info> app: 23
+00> 
+00> <info> app: 29
+00> 
+00> <info> app: 23
+00> 
+00> <info> app: -6
+00> 
+00> <info> app: -3
+00> 
+00> <info> app: -6
+00> 
+00> <info> app: -3
+00> 
+00> <info> app: -6
+00> 
+00> <info> app: -3
+00> 
+00> <info> app: -6
+00> 
+00> <info> app: 19
+00> 
+00> <info> app: 22
+00> 
+00> <info> app: 31
+00> 
+00> <info> app: 28
+00> 
+00> <info> app: 31
+00> 
+00> <info> app: 28
+00> 
+00> <info> app: 31
+00> 
+00> <info> app: 28
+00> 
+00> <info> app: 31
+00> 
+00> <info> app: 28
+00> 
+00> <info> app: 31
+00> 
+00> <info> app: -55
+00> 
+00> <info> app: -54
+00> 
+00> <info> app: -55
+00> 
+00> <info> app: -54
+00> 
+00> <info> app: -55
+00> 
+00> <info> app: -54
+00> 
+00> <info> app: -55
+00> 
+00> <info> app: -54
+00> 
+00> <info> app: -55
+00> 
+00> <info> app: -54
+00> 
+00> <info> app: 30
+00> 
+00> <info> app: 29
+00> 
+00> <info> app: 30
+00> 
+00> <info> app: 29
+00> 
+00> <info> app: 30
+00> 
+00> <info> app: 29
+00> 
+00> <info> app: 30
+00> 
+00> <info> app: 29
+00> 
+00> <info> app: 21
+00> 
+00> <info> app: 26
+00> 
+00> <info> app: 21
+00> 
+00> <info> app: 26
+00> 
+00> <info> app: 21
+00> 
+00> <info> app: 26
+00> 
+00> <info> app: 21
+00> 
+00> <info> app: 26
+00> 
+00> <info> app: 21
+00> 
+00> <info> app: 26
+00> 
+00> <info> app: 26
+00> 
+00> <info> app: 27
+00> 
+00> <info> app: 26
+00> 
+00> <info> app: 27
+00> 
+00> <info> app: 26
+00> 
+00> <info> app: 27
+00> 
+00> <info> app: 26
+00> 
+00> <info> app: 27
+00> 
+00> <info> app: 26
+00> 
+00> <info> app: -14
+00> 
+00> <info> app: -18
+00> 
+00> <info> app: -14
+00> 
+00> <info> app: -18
+00> 
+00> <info> app: -14
+00> 
+00> <info> app: -18
+00> 
+00> <info> app: -14
+00> 
+00> <info> app: -18
+00> 
+00> <info> app: 0
+00> 
+00> <info> app: 1
+00> 
+00> <info> app: 0
+00> 
+00> <info> app: 1
+00> 
+00> <info> app: 0
+00> 
+00> <info> app: 1
+00> 
+00> <info> app: 0
+00> 
+00> <info> app: 1
+00> 
+00> <info> app: 0
+00> 
+00> <info> app: -73
+00> 
+00> <info> app: -83
+00> 
+00> <info> app: -73
+00> 
+00> <info> app: -83
+00> 
+00> <info> app: -73
+00> 
+00> <info> app: -83
+00> 
+00> <info> app: -73
+00> 
+00> <info> app: -83
+00> 
+00> <info> app: -73
+00> 
+00> <info> app: -104
+00> 
+00> <info> app: -97
+00> 
+00> <info> app: -104
+00> 
+00> <info> app: -97
+00> 
+00> <info> app: -104
+00> 
+00> <info> app: -97
+00> 
+00> <info> app: -104
+00> 
+00> <info> app: 20
+00> 
+00> <info> app: 21
+00> 
+00> <info> app: 20
+00> 
+00> <info> app: 21
+00> 
+00> <info> app: 20
+00> 
+00> <info> app: 21
+00> 
+00> <info> app: 20
+00> 
+00> <info> app: 21
+00> 
+00> <info> app: 20
+00> 
+00> <info> app: 21
+00> 
+00> <info> app: 81
+00> 
+00> <info> app: 88
+00> 
+00> <info> app: 81
+00> 
+00> <info> app: 88
+00> 
+00> <info> app: 81
+00> 
+00> <info> app: 88
+00> 
+00> <info> app: 81
+00> 
+00> <info> app: 88
+00> 
+00> <info> app: 81
+00> 
+00> <info> app: 88
+00> 
+00> <info> app: 6
+00> 
+00> <info> app: 10
+00> 
+00> <info> app: 6
+00> 
+00> <info> app: 10
+00> 
+00> <info> app: 6
+00> 
+00> <info> app: 10
+00> 
+00> <info> app: 6
+00> 
+00> <info> app: 10
+00> 
+00> <info> app: 6
+00> 
+00> <info> app: 10
+00> 
+00> <info> app: -2
+00> 
+00> <info> app: -6
+00> 
+00> <info> app: -2
+00> 
+00> <info> app: -6
+00> 
+00> <info> app: -2
+00> 
+00> <info> app: -6
+00> 
+00> <info> app: -2
+00> 
+00> <info> app: -6
+00> 
+00> <info> app: -2
+00> 
+00> <info> app: 27
+00> 
+00> <info> app: 22
+00> 
+00> <info> app: 27
+00> 
+00> <info> app: 22
+00> 
+00> <info> app: 27
+00> 
+00> <info> app: 22
+00> 
+00> <info> app: 27
+00> 
+00> <info> app: 22
+00> 
+00> <info> app: 73
+00> 
+00> <info> app: 66
+00> 
+00> <info> app: 73
+00> 
+00> <info> app: 66
+00> 
+00> <info> app: 73
+00> 
+00> <info> app: 66
+00> 
+00> <info> app: 73
+00> 
+00> <info> app: 66
+00> 
+00> <info> app: 18
+00> 
+00> <info> app: 11
+00> 
+00> <info> app: 18
+00> 
+00> <info> app: 11
+00> 
+00> <info> app: 18
+00> 
+00> <info> app: 23
+00> 
+00> <info> app: 21
+00> 
+00> <info> app: 23
+00> 
+00> <info> app: -9
+00> 
+00> <info> app: -5
+00> 
+00> <info> app: -9
+00> 
+00> <info> app: -5
+00> 
+00> <info> app: -9
+00> 
+00> <info> app: -5
+00> 
+00> <info> app: -9
+00> 
+00> <info> app: -5
+00> 
+00> <info> app: -26
+00> 
+00> <info> app: -28
+00> 
+00> <info> app: -26
+00> 
+00> <info> app: -28
+00> 
+00> <info> app: -26
+00> 
+00> <info> app: -28
+00> 
+00> <info> app: -52
+00> 
+00> <info> app: 44
+00> 
+00> <info> app: 43
+00> 
+00> <info> app: 44
+00> 
+00> <info> app: 43
+00> 
+00> <info> app: 44
+00> 
+00> <info> app: -23
+00> 
+00> <info> app: -20
+00> 
+00> <info> app: -23
+00> 
+00> <info> app: 14
+00> 
+00> <info> app: 17
+00> 
+00> <info> app: 14
+00> 
+00> <info> app: 17
+00> 
+00> <info> app: -23
+00> 
+00> <info> app: -21
+00> 
+00> <info> app: -23
+00> 
+00> <info> app: -21
+00> 
+00> <info> app: -23
+00> 
+00> <info> app: -18
+00> 
+00> <info> app: -10
+00> 
+00> <info> app: -18
+00> 
+00> <info> app: -10
+00> 
+00> <info> app: -18
+00> 
+00> <info> app: -10
+00> 
+00> <info> app: -18
+00> 
+00> <info> app: -10
+00> 
+00> <info> app: -18
+00> 
+00> <info> app: 36
+00> 
+00> <info> app: 34
+00> 
+00> <info> app: 36
+00> 
+00> <info> app: 2
+00> 
+00> <info> app: 1
+00> 
+00> <info> app: 2
+00> 
+00> <info> app: 1
+00> 
+00> <info> app: 2
+00> 
+00> <info> app: 1
+00> 
+00> <info> app: -39
+00> 
+00> <info> app: -36
+00> 
+00> <info> app: -39
+00> 
+00> <info> app: -36
+00> 
+00> <info> app: -39
+00> 
+00> <info> app: -36
+00> 
+00> <info> app: -39
+00> 
+00> <info> app: -17
+00> 
+00> <info> app: -32
+00> 
+00> <info> app: -37
+00> 
+00> <info> app: -32
+00> 
+00> <info> app: -37
+00> 
+00> <info> app: -32
+00> 
+00> <info> app: -37
+00> 
+00> <info> app: -32
+00> 
+00> <info> app: -37
+00> 
+00> <info> app: -110
+00> 
+00> <info> app: 13
+00> 
+00> <info> app: 11
+00> 
+00> <info> app: 13
+00> 
+00> <info> app: 11
+00> 
+00> <info> app: 13
+00> 
+00> <info> app: 11
+00> 
+00> <info> app: 13
+00> 
+00> <info> app: 11
+00> 
+00> <info> app: 13
+00> 
+00> <info> app: 67
+00> 
+00> <info> app: 77
+00> 
+00> <info> app: 67
+00> 
+00> <info> app: 77
+00> 
+00> <info> app: 67
+00> 
+00> <info> app: 77
+00> 
+00> <info> app: 67
+00> 
+00> <info> app: 77
+00> 
+00> <info> app: 56
+00> 
+00> <info> app: 61
+00> 
+00> <info> app: 56
+00> 
+00> <info> app: 61
+00> 
+00> <info> app: 56
+00> 
+00> <info> app: 61
+00> 
+00> <info> app: 56
+00> 
+00> <info> app: 61
+00> 
+00> <info> app: 56
+00> 
+00> <info> app: 61
+00> 
+00> <info> app: -7
+00> 
+00> <info> app: -9
+00> 
+00> <info> app: -7
+00> 
+00> <info> app: -9
+00> 
+00> <info> app: -7
+00> 
+00> <info> app: -57
+00> 
+00> <info> app: -56
+00> 
+00> <info> app: -57
+00> 
+00> <info> app: 50
+00> 
+00> <info> app: 46
+00> 
+00> <info> app: 50
+00> 
+00> <info> app: 46
+00> 
+00> <info> app: 50
+00> 
+00> <info> app: 46
+00> 
+00> <info> app: 50
+00> 
+00> <info> app: 46
+00> 
+00> <info> app: 50
+00> 
+00> <info> app: 18
+00> 
+00> <info> app: 26
+00> 
+00> <info> app: 18
+00> 
+00> <info> app: 26
+00> 
+00> <info> app: 18
+00> 
+00> <info> app: 26
+00> 
+00> <info> app: 18
+00> 
+00> <info> app: 26
+00> 
+00> <info> app: 18
+00> 
+00> <info> app: 26
+00> 
+00> <info> app: -13
+00> 
+00> <info> app: -19
+00> 
+00> <info> app: -13
+00> 
+00> <info> app: -19
+00> 
+00> <info> app: -13
+00> 
+00> <info> app: -19
+00> 
+00> <info> app: -13
+00> 
+00> <info> app: -19
+00> 
+00> <info> app: -13
+00> 
+00> <info> app: -7
+00> 
+00> <info> app: -3
+00> 
+00> <info> app: -7
+00> 
+00> <info> app: -3
+00> 
+00> <info> app: -7
+00> 
+00> <info> app: -3
+00> 
+00> <info> app: -7
+00> 
+00> <info> app: 17
+00> 
+00> <info> app: 6
+00> 
+00> <info> app: 46
+00> 
+00> <info> app: 43
+00> 
+00> <info> app: 46
+00> 
+00> <info> app: 43
+00> 
+00> <info> app: 46
+00> 
+00> <info> app: 43
+00> 
+00> <info> app: 46
+00> 
+00> <info> app: 43
+00> 
+00> <info> app: 46
+00> 
+00> <info> app: 14
+00> 
+00> <info> app: 11
+00> 
+00> <info> app: 14
+00> 
+00> <info> app: 11
+00> 
+00> <info> app: 14
+00> 
+00> <info> app: 11
+00> 
+00> <info> app: 14
+00> 
+00> <info> app: 11
+00> 
+00> <info> app: 14
+00> 
+00> <info> app: 11
+00> 
+00> <info> app: 3
+00> 
+00> <info> app: 7
+00> 
+00> <info> app: 3
+00> 
+00> <info> app: 7
+00> 
+00> <info> app: 3
+00> 
+00> <info> app: 7
+00> 
+00> <info> app: 3
+00> 
+00> <info> app: 7
+00> 
+00> <info> app: 3
+00> 
+00> <info> app: -69
+00> 
+00> <info> app: -70
+00> 
+00> <info> app: 31
+00> 
+00> <info> app: 21
+00> 
+00> <info> app: 31
+00> 
+00> <info> app: 21
+00> 
+00> <info> app: 31
+00> 
+00> <info> app: 21
+00> 
+00> <info> app: 31
+00> 
+00> <info> app: 3
+00> 
+00> <info> app: 7
+00> 
+00> <info> app: 3
+00> 
+00> <info> app: 7
+00> 
+00> <info> app: 3
+00> 
+00> <info> app: 7
+00> 
+00> <info> app: 3
+00> 
+00> <info> app: 7
+00> 
+00> <info> app: 146
+00> 
+00> <info> app: 146
+00> 
+00> <info> app: 146
+00> 
+00> <info> app: 146
+00> 
+00> <info> app: -47
+00> 
+00> <info> app: -40
+00> 
+00> <info> app: -47
+00> 
+00> <info> app: -40
+00> 
+00> <info> app: -32
+00> 
+00> <info> app: -30
+00> 
+00> <info> app: -32
+00> 
+00> <info> app: -30
+00> 
+00> <info> app: -32
+00> 
+00> <info> app: -30
+00> 
+00> <info> app: -32
+00> 
+00> <info> app: -30
+00> 
+00> <info> app: 14
+00> 
+00> <info> app: 18
+00> 
+00> <info> app: 14
+00> 
+00> <info> app: 18
+00> 
+00> <info> app: 14
+00> 
+00> <info> app: 18
+00> 
+00> <info> app: 14
+00> 
+00> <info> app: 18
+00> 
+00> <info> app: 14
+00> 
+00> <info> app: 44
+00> 
+00> <info> app: -15
+00> 
+00> <info> app: -12
+00> 
+00> <info> app: -15
+00> 
+00> <info> app: -12
+00> 
+00> <info> app: -15
+00> 
+00> <info> app: -12
+00> 
+00> <info> app: -15
+00> 
+00> <info> app: 14
+00> 
+00> <info> app: 14
+00> 
+00> <info> app: 14
+00> 
+00> <info> app: 14
+00> 
+00> <info> app: 33
+00> 
+00> <info> app: 41
+00> 
+00> <info> app: 33
+00> 
+00> <info> app: 41
+00> 
+00> <info> app: 33
+00> 
+00> <info> app: 41
+00> 
+00> <info> app: 10
+00> 
+00> <info> app: 18
+00> 
+00> <info> app: 10
+00> 
+00> <info> app: 18
+00> 
+00> <info> app: 10
+00> 
+00> <info> app: 18
+00> 
+00> <info> app: 10
+00> 
+00> <info> app: 18
+00> 
+00> <info> app: 10
+00> 
+00> <info> app: -31
+00> 
+00> <info> app: 0
+00> 
+00> <info> app: 3
+00> 
+00> <info> app: 0
+00> 
+00> <info> app: 3
+00> 
+00> <info> app: 0
+00> 
+00> <info> app: 3
+00> 
+00> <info> app: 0
+00> 
+00> <info> app: 3
+00> 
+00> <info> app: 0
+00> 
+00> <info> app: -2
+00> 
+00> <info> app: 2
+00> 
+00> <info> app: -2
+00> 
+00> <info> app: 2
+00> 
+00> <info> app: -2
+00> 
+00> <info> app: 25
+00> 
+00> <info> app: 18
+00> 
+00> <info> app: 25
+00> 
+00> <info> app: 18
+00> 
+00> <info> app: 10
+00> 
+00> <info> app: 6
+00> 
+00> <info> app: 10
+00> 
+00> <info> app: 6
+00> 
+00> <info> app: 10
+00> 
+00> <info> app: 6
+00> 
+00> <info> app: 10
+00> 
+00> <info> app: 6
+00> 
+00> <info> app: -1
+00> 
+00> <info> app: -3
+00> 
+00> <info> app: -1
+00> 
+00> <info> app: -3
+00> 
+00> <info> app: -51
+00> 
+00> <info> app: -52
+00> 
+00> <info> app: -51
+00> 
+00> <info> app: -52
+00> 
+00> <info> app: 34
+00> 
+00> <info> app: -15
+00> 
+00> <info> app: -9
+00> 
+00> <info> app: -15
+00> 
+00> <info> app: -9
+00> 
+00> <info> app: -15
+00> 
+00> <info> app: -9
+00> 
+00> <info> app: -15
+00> 
+00> <info> app: -7
+00> 
+00> <info> app: -5
+00> 
+00> <info> app: -7
+00> 
+00> <info> app: -5
+00> 
+00> <info> app: -7
+00> 
+00> <info> app: -5
+00> 
+00> <info> app: -7
+00> 
+00> <info> app: -5
+00> 
+00> <info> app: -34
+00> 
+00> <info> app: -29
+00> 
+00> <info> app: -34
+00> 
+00> <info> app: -29
+00> 
+00> <info> app: -34
+00> 
+00> <info> app: -29
+00> 
+00> <info> app: -34
+00> 
+00> <info> app: 6
+00> 
+00> <info> app: 4
+00> 
+00> <info> app: 22
+00> 
+00> <info> app: 20
+00> 
+00> <info> app: 22
+00> 
+00> <info> app: 20
+00> 
+00> <info> app: 22
+00> 
+00> <info> app: 20
+00> 
+00> <info> app: 22
+00> 
+00> <info> app: 50
+00> 
+00> <info> app: 52
+00> 
+00> <info> app: 50
+00> 
+00> <info> app: 52
+00> 
+00> <info> app: 50
+00> 
+00> <info> app: 52
+00> 
+00> <info> app: 50
+00> 
+00> <info> app: 52
+00> 
+00> <info> app: -1
+00> 
+00> <info> app: 5
+00> 
+00> <info> app: -1
+00> 
+00> <info> app: -32
+00> 
+00> <info> app: -34
+00> 
+00> <info> app: -32
+00> 
+00> <info> app: -34
+00> 
+00> <info> app: -32
+00> 
+00> <info> app: -34
+00> 
+00> <info> app: -32
+00> 
+00> <info> app: 39
+00> 
+00> <info> app: 30
+00> 
+00> <info> app: 39
+00> 
+00> <info> app: 30
+00> 
+00> <info> app: 39
+00> 
+00> <info> app: 30
+00> 
+00> <info> app: -22
+00> 
+00> <info> app: -18
+00> 
+00> <info> app: -22
+00> 
+00> <info> app: 93
+00> 
+00> <info> app: 91
+00> 
+00> <info> app: 93
+00> 
+00> <info> app: 91
+00> 
+00> <info> app: 93
+00> 
+00> <info> app: 91
+00> 
+00> <info> app: 93
+00> 
+00> <info> app: 91
+00> 
+00> <info> app: 34
+00> 
+00> <info> app: 30
+00> 
+00> <info> app: 34
+00> 
+00> <info> app: 30
+00> 
+00> <info> app: 34
+00> 
+00> <info> app: 30
+00> 
+00> <info> app: 34
+00> 
+00> <info> app: 30
+00> 
+00> <info> app: -2
+00> 
+00> <info> app: 6
+00> 
+00> <info> app: -2
+00> 
+00> <info> app: 6
+00> 
+00> <info> app: -2
+00> 
+00> <info> app: 6
+00> 
+00> <info> app: -45
+00> 
+00> <info> app: -51
+00> 
+00> <info> app: 0
+00> 
+00> <info> app: 2
+00> 
+00> <info> app: 0
+00> 
+00> <info> app: 78
+00> 
+00> <info> app: 86
+00> 
+00> <info> app: 78
+00> 
+00> <info> app: 86
+00> 
+00> <info> app: 78
+00> 
+00> <info> app: -29
+00> 
+00> <info> app: -28
+00> 
+00> <info> app: -29
+00> 
+00> <info> app: -28
+00> 
+00> <info> app: -29
+00> 
+00> <info> app: -28
+00> 
+00> <info> app: -29
+00> 
+00> <info> app: 62
+00> 
+00> <info> app: 58
+00> 
+00> <info> app: 13
+00> 
+00> <info> app: 4
+00> 
+00> <info> app: 13
+00> 
+00> <info> app: 4
+00> 
+00> <info> app: 13
+00> 
+00> <info> app: 4
+00> 
+00> <info> app: 25
+00> 
+00> <info> app: 27
+00> 
+00> <info> app: 25
+00> 
+00> <info> app: 27
+00> 
+00> <info> app: 25
+00> 
+00> <info> app: 27
+00> 
+00> <info> app: 25
+00> 
+00> <info> app: 27
+00> 
+00> <info> app: 0
+00> 
+00> <info> app: -3
+00> 
+00> <info> app: 0
+00> 
+00> <info> app: -3
+00> 
+00> <info> app: 0
+00> 
+00> <info> app: -3
+00> 
+00> <info> app: 0
+00> 
+00> <info> app: -3
+00> 
+00> <info> app: -15
+00> 
+00> <info> app: -20
+00> 
+00> <info> app: -15
+00> 
+00> <info> app: -20
+00> 
+00> <info> app: -15
+00> 
+00> <info> app: -20
+00> 
+00> <info> app: -15
+00> 
+00> <info> app: -22
+00> 
+00> <info> app: -21
+00> 
+00> <info> app: -18
+00> 
+00> <info> app: -16
+00> 
+00> <info> app: -18
+00> 
+00> <info> app: -16
+00> 
+00> <info> app: -18
+00> 
+00> <info> app: -16
+00> 
+00> <info> app: -18
+00> 
+00> <info> app: -16
+00> 
+00> <info> app: -74
+00> 
+00> <info> app: -78
+00> 
+00> <info> app: -20
+00> 
+00> <info> app: -16
+00> 
+00> <info> app: -20
+00> 
+00> <info> app: -16
+00> 
+00> <info> app: -20
+00> 
+00> <info> app: -16
+00> 
+00> <info> app: -20
+00> 
+00> <info> app: 24
+00> 
+00> <info> app: 28
+00> 
+00> <info> app: 24
+00> 
+00> <info> app: 28
+00> 
+00> <info> app: 24
+00> 
+00> <info> app: 28
+00> 
+00> <info> app: 24
+00> 
+00> <info> app: 28
+00> 
+00> <info> app: -40
+00> 
+00> <info> app: 12
+00> 
+00> <info> app: 7
+00> 
+00> <info> app: 12
+00> 
+00> <info> app: 7
+00> 
+00> <info> app: 12
+00> 
+00> <info> app: 7
+00> 
+00> <info> app: 12
+00> 
+00> <info> app: 7
+00> 
+00> <info> app: 12
+00> 
+00> <info> app: -38
+00> 
+00> <info> app: -29
+00> 
+00> <info> app: -38
+00> 
+00> <info> app: -29
+00> 
+00> <info> app: -20
+00> 
+00> <info> app: -15
+00> 
+00> <info> app: -20
+00> 
+00> <info> app: 13
+00> 
+00> <info> app: 12
+00> 
+00> <info> app: 13
+00> 
+00> <info> app: 12
+00> 
+00> <info> app: 13
+00> 
+00> <info> app: 12
+00> 
+00> <info> app: 13
+00> 
+00> <info> app: 12
+00> 
+00> <info> app: -12
+00> 
+00> <info> app: -55
+00> 
+00> <info> app: -58
+00> 
+00> <info> app: -55
+00> 
+00> <info> app: -58
+00> 
+00> <info> app: -55
+00> 
+00> <info> app: -58
+00> 
+00> <info> app: -8
+00> 
+00> <info> app: -13
+00> 
+00> <info> app: -8
+00> 
+00> <info> app: -13
+00> 
+00> <info> app: -8
+00> 
+00> <info> app: -13
+00> 
+00> <info> app: -8
+00> 
+00> <info> app: -13
+00> 
+00> <info> app: -51
+00> 
+00> <info> app: -47
+00> 
+00> <info> app: -51
+00> 
+00> <info> app: -47
+00> 
+00> <info> app: -51
+00> 
+00> <info> app: -47
+00> 
+00> <info> app: -51
+00> 
+00> <info> app: -47
+00> 
+00> <info> app: 20
+00> 
+00> <info> app: 18
+00> 
+00> <info> app: 7
+00> 
+00> <info> app: 9
+00> 
+00> <info> app: 7
+00> 
+00> <info> app: 9
+00> 
+00> <info> app: 7
+00> 
+00> <info> app: 9
+00> 
+00> <info> app: 2
+00> 
+00> <info> app: -11
+00> 
+00> <info> app: 2
+00> 
+00> <info> app: -11
+00> 
+00> <info> app: 2
+00> 
+00> <info> app: -11
+00> 
+00> <info> app: 2
+00> 
+00> <info> app: -11
+00> 
+00> <info> app: 2
+00> 
+00> <info> app: 30
+00> 
+00> <info> app: -10
+00> 
+00> <info> app: -3
+00> 
+00> <info> app: -10
+00> 
+00> <info> app: -3
+00> 
+00> <info> app: -10
+00> 
+00> <info> app: -3
+00> 
+00> <info> app: 32
+00> 
+00> <info> app: 34
+00> 
+00> <info> app: -13
+00> 
+00> <info> app: -8
+00> 
+00> <info> app: -13
+00> 
+00> <info> app: -8
+00> 
+00> <info> app: -13
+00> 
+00> <info> app: -8
+00> 
+00> <info> app: -13
+00> 
+00> <info> app: 15
+00> 
+00> <info> app: 6
+00> 
+00> <info> app: 15
+00> 
+00> <info> app: 6
+00> 
+00> <info> app: 15
+00> 
+00> <info> app: 6
+00> 
+00> <info> app: 15
+00> 
+00> <info> app: 6
+00> 
+00> <info> app: 15
+00> 
+00> <info> app: 6
+00> 
+00> <info> app: -34
+00> 
+00> <info> app: -38
+00> 
+00> <info> app: -34
+00> 
+00> <info> app: -38
+00> 
+00> <info> app: -34
+00> 
+00> <info> app: -38
+00> 
+00> <info> app: -34
+00> 
+00> <info> app: 26
+00> 
+00> <info> app: 34
+00> 
+00> <info> app: 26
+00> 
+00> <info> app: 34
+00> 
+00> <info> app: -1
+00> 
+00> <info> app: 1
+00> 
+00> <info> app: -1
+00> 
+00> <info> app: 1
+00> 
+00> <info> app: -50
+00> 
+00> <info> app: 9
+00> 
+00> <info> app: 6
+00> 
+00> <info> app: 9
+00> 
+00> <info> app: 6
+00> 
+00> <info> app: 9
+00> 
+00> <info> app: 6
+00> 
+00> <info> app: 9
+00> 
+00> <info> app: 6
+00> 
+00> <info> app: 36
+00> 
+00> <info> app: 36
+00> 
+00> <info> app: 36
+00> 
+00> <info> app: 36
+00> 
+00> <info> app: 36
+00> 
+00> <info> app: 36
+00> 
+00> <info> app: 27
+00> 
+00> <info> app: 26
+00> 
+00> <info> app: -57
+00> 
+00> <info> app: -54
+00> 
+00> <info> app: -57
+00> 
+00> <info> app: -54
+00> 
+00> <info> app: -57
+00> 
+00> <info> app: -54
+00> 
+00> <info> app: -57
+00> 
+00> <info> app: -27
+00> 
+00> <info> app: -18
+00> 
+00> <info> app: -27
+00> 
+00> <info> app: -18
+00> 
+00> <info> app: -27
+00> 
+00> <info> app: -18
+00> 
+00> <info> app: -27
+00> 
+00> <info> app: -18
+00> 
+00> <info> app: 52
+00> 
+00> <info> app: 46
+00> 
+00> <info> app: 27
+00> 
+00> <info> app: 26
+00> 
+00> <info> app: 27
+00> 
+00> <info> app: 26
+00> 
+00> <info> app: 27
+00> 
+00> <info> app: 26
+00> 
+00> <info> app: -7
+00> 
+00> <info> app: -17
+00> 
+00> <info> app: -7
+00> 
+00> <info> app: -17
+00> 
+00> <info> app: -7
+00> 
+00> <info> app: -17
+00> 
+00> <info> app: -73
+00> 
+00> <info> app: -51
+00> 
+00> <info> app: -42
+00> 
+00> <info> app: -51
+00> 
+00> <info> app: -42
+00> 
+00> <info> app: -51
+00> 
+00> <info> app: -42
+00> 
+00> <info> app: -51
+00> 
+00> <info> app: -20
+00> 
+00> <info> app: -17
+00> 
+00> <info> app: -20
+00> 
+00> <info> app: -17
+00> 
+00> <info> app: -20
+00> 
+00> <info> app: -17
+00> 
+00> <info> app: -20
+00> 
+00> <info> app: -17
+00> 
+00> <info> app: -20
+00> 
+00> <info> app: 18
+00> 
+00> <info> app: 12
+00> 
+00> <info> app: 18
+00> 
+00> <info> app: 12
+00> 
+00> <info> app: 18
+00> 
+00> <info> app: 12
+00> 
+00> <info> app: 18
+00> 
+00> <info> app: 12
+00> 
+00> <info> app: 18
+00> 
+00> <info> app: 12
+00> 
+00> <info> app: 5
+00> 
+00> <info> app: 1
+00> 
+00> <info> app: 5
+00> 
+00> <info> app: 1
+00> 
+00> <info> app: 5
+00> 
+00> <info> app: 1
+00> 
+00> <info> app: -3
+00> 
+00> <info> app: -7
+00> 
+00> <info> app: -3
+00> 
+00> <info> app: -7
+00> 
+00> <info> app: -16
+00> 
+00> <info> app: -14
+00> 
+00> <info> app: -16
+00> 
+00> <info> app: -14
+00> 
+00> <info> app: -16
+00> 
+00> <info> app: -14
+00> 
+00> <info> app: -16
+00> 
+00> <info> app: -14
+00> 
+00> <info> app: -39
+00> 
+00> <info> app: -35
+00> 
+00> <info> app: -39
+00> 
+00> <info> app: -35
+00> 
+00> <info> app: -39
+00> 
+00> <info> app: -35
+00> 
+00> <info> app: -19
+00> 
+00> <info> app: -16
+00> 
+00> <info> app: -19
+00> 
+00> <info> app: 72
+00> 
+00> <info> app: 75
+00> 
+00> <info> app: 72
+00> 
+00> <info> app: 75
+00> 
+00> <info> app: 72
+00> 
+00> <info> app: 75
+00> 
+00> <info> app: 72
+00> 
+00> <info> app: 75
+00> 
+00> <info> app: 72
+00> 
+00> <info> app: -19
+00> 
+00> <info> app: -9
+00> 
+00> <info> app: -19
+00> 
+00> <info> app: -9
+00> 
+00> <info> app: -19
+00> 
+00> <info> app: -9
+00> 
+00> <info> app: -19
+00> 
+00> <info> app: -9
+00> 
+00> <info> app: -19
+00> 
+00> <info> app: 9
+00> 
+00> <info> app: 10
+00> 
+00> <info> app: 9
+00> 
+00> <info> app: 10
+00> 
+00> <info> app: 9
+00> 
+00> <info> app: 13
+00> 
+00> <info> app: 9
+00> 
+00> <info> app: 13
+00> 
+00> <info> app: -44
+00> 
+00> <info> app: -42
+00> 
+00> <info> app: -44
+00> 
+00> <info> app: -42
+00> 
+00> <info> app: -44
+00> 
+00> <info> app: -42
+00> 
+00> <info> app: -44
+00> 
+00> <info> app: 33
+00> 
+00> <info> app: 28
+00> 
+00> <info> app: -18
+00> 
+00> <info> app: -22
+00> 
+00> <info> app: -18
+00> 
+00> <info> app: -22
+00> 
+00> <info> app: -18
+00> 
+00> <info> app: -22
+00> 
+00> <info> app: -6
+00> 
+00> <info> app: -1
+00> 
+00> <info> app: -6
+00> 
+00> <info> app: -1
+00> 
+00> <info> app: -6
+00> 
+00> <info> app: -1
+00> 
+00> <info> app: -6
+00> 
+00> <info> app: -1
+00> 
+00> <info> app: -6
+00> 
+00> <info> app: 20
+00> 
+00> <info> app: 26
+00> 
+00> <info> app: 20
+00> 
+00> <info> app: 26
+00> 
+00> <info> app: 20
+00> 
+00> <info> app: 26
+00> 
+00> <info> app: -23
+00> 
+00> <info> app: -28
+00> 
+00> <info> app: -34
+00> 
+00> <info> app: -35
+00> 
+00> <info> app: -34
+00> 
+00> <info> app: -35
+00> 
+00> <info> app: -34
+00> 
+00> <info> app: -35
+00> 
+00> <info> app: -34
+00> 
+00> <info> app: -7
+00> 
+00> <info> app: -14
+00> 
+00> <info> app: -27
+00> 
+00> <info> app: -14
+00> 
+00> <info> app: -27
+00> 
+00> <info> app: -14
+00> 
+00> <info> app: -27
+00> 
+00> <info> app: -14
+00> 
+00> <info> app: 1
+00> 
+00> <info> app: -4
+00> 
+00> <info> app: 1
+00> 
+00> <info> app: -4
+00> 
+00> <info> app: 1
+00> 
+00> <info> app: -4
+00> 
+00> <info> app: 1
+00> 
+00> <info> app: -4
+00> 
+00> <info> app: 49
+00> 
+00> <info> app: 50
+00> 
+00> <info> app: 49
+00> 
+00> <info> app: 50
+00> 
+00> <info> app: 49
+00> 
+00> <info> app: 4
+00> 
+00> <info> app: 6
+00> 
+00> <info> app: 4
+00> 
+00> <info> app: 11
+00> 
+00> <info> app: 9
+00> 
+00> <info> app: 11
+00> 
+00> <info> app: 9
+00> 
+00> <info> app: 11
+00> 
+00> <info> app: 9
+00> 
+00> <info> app: 11
+00> 
+00> <info> app: 9
+00> 
+00> <info> app: 11
+00> 
+00> <info> app: 9
+00> 
+00> <info> app: 21
+00> 
+00> <info> app: 24
+00> 
+00> <info> app: 21
+00> 
+00> <info> app: 24
+00> 
+00> <info> app: 21
+00> 
+00> <info> app: 24
+00> 
+00> <info> app: 21
+00> 
+00> <info> app: 24
+00> 
+00> <info> app: 21
+00> 
+00> <info> app: -70
+00> 
+00> <info> app: -64
+00> 
+00> <info> app: -70
+00> 
+00> <info> app: -64
+00> 
+00> <info> app: -70
+00> 
+00> <info> app: -64
+00> 
+00> <info> app: -70
+00> 
+00> <info> app: -64
+00> 
+
+# Logging stopped @  3 Feb 2022 22:58:50

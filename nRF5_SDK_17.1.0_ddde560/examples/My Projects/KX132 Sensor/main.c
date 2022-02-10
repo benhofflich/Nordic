@@ -22,14 +22,17 @@ int main(void)
 {
 
 // initialize the logger
-    APP_ERROR_CHECK(NRF_LOG_INIT(NULL));
+    ret_code_t err_code = NRF_LOG_INIT(NULL);
+    APP_ERROR_CHECK(err_code);
+
     NRF_LOG_DEFAULT_BACKENDS_INIT();
+
+    NRF_LOG_INFO("Hello");
+    NRF_LOG_FLUSH();
 	
 	
 // create arrays which will hold x,y & z co-ordinates values of acc and gyro
     static int16_t AccValue[3], GyroValue[3];
-
-    bsp_board_init(BSP_INIT_LEDS | BSP_INIT_BUTTONS); // initialize the leds and buttons
 
     twi_master_init(); // initialize the twi 
     nrf_delay_ms(1000); // give some delay
@@ -37,12 +40,15 @@ int main(void)
     while(kx132_init() == false) // wait until kx132 sensor is successfully initialized
     {
       NRF_LOG_INFO("kx132 initialization failed!!!"); // if it failed to initialize then print a message
+      NRF_LOG_FLUSH();
       nrf_delay_ms(1000);
     }
 
    NRF_LOG_INFO("kx132 Init Successfully!!!"); 
+   NRF_LOG_FLUSH();
 
    NRF_LOG_INFO("Reading Values from ACC & GYRO"); // display a message to let the user know that the device is starting to read the values
+   NRF_LOG_FLUSH();
    nrf_delay_ms(2000);
 
 
@@ -58,6 +64,7 @@ int main(void)
         {
           NRF_LOG_INFO("Reading ACC values Failed!!!"); // if reading was unsuccessful then let the user know about it
         }
+        NRF_LOG_FLUSH();
 
        nrf_delay_ms(100); // give some delay 
 
