@@ -771,6 +771,8 @@
 #endif
 // </e>
 
+// </e>
+
 // <e> PDM_ENABLED - nrf_drv_pdm - PDM peripheral driver - legacy layer
 //==========================================================
 #ifndef PDM_ENABLED
@@ -795,14 +797,15 @@
 #endif
 
 // <o> PDM_CONFIG_CLOCK_FREQ  - Clock frequency
- 
+
+// <33554432=> 4k
 // <134217728=> 1000k 
 // <138412032=> 1032k (default) 
-// <142606336=> 1067k 
+// <142606336=> 1067k
 
 #ifndef PDM_CONFIG_CLOCK_FREQ
-#define PDM_CONFIG_CLOCK_FREQ 138412032
-#endif
+#define PDM_CONFIG_CLOCK_FREQ 33554432
+#endif 
 
 // <o> PDM_CONFIG_IRQ_PRIORITY  - Interrupt priority
  
@@ -1094,7 +1097,7 @@
 // <i> Log data is buffered and can be processed in idle.
 
 #ifndef NRF_LOG_DEFERRED
-#define NRF_LOG_DEFERRED 1
+#define NRF_LOG_DEFERRED 0
 #endif
 
 // <q> NRF_LOG_FILTERS_ENABLED  - Enable dynamic filtering of logs.

@@ -129,11 +129,14 @@ static void uart_loopback_test()
 static void drv_pdm_hand(const nrfx_pdm_evt_t *evt){
 
   nrfx_err_t error = 0;
+  char buf[buffsize];
   if((*evt).buffer_released){
     NRF_LOG_INFO("Released");
     for(size_t i = 0; i < buffsize; i++){
-        NRF_LOG_INFO("%d",buff1[i]);
+        NRF_LOG_INFO("%d ",buff1[i]);
+        //printf("%d ",buff1[i]);
     }
+    //printf("\r\n");
   }
   if((*evt).buffer_requested){
     error = nrfx_pdm_buffer_set(buff1, buffsize);
@@ -202,7 +205,7 @@ int main(void)
     // This part of the example is just for testing the loopback .
     while (true)
     {
-    NRF_LOG_FLUSH();
+    //NRF_LOG_FLUSH();
       /*for(size_t i = 0; i < buffsize; i++){
         NRF_LOG_INFO("%d",buff1[i]);
         NRF_LOG_FLUSH();
