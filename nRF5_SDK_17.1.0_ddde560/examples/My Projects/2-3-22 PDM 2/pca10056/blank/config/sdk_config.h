@@ -793,7 +793,7 @@
 // <1=> Left rising 
 
 #ifndef PDM_CONFIG_EDGE
-#define PDM_CONFIG_EDGE 0
+#define PDM_CONFIG_EDGE 1
 #endif
 
 // <o> PDM_CONFIG_CLOCK_FREQ  - Clock frequency

@@ -66,7 +66,7 @@
 
 uint16_t buffsize = 1024;
 int16_t buff1[1024];
-int16_t buff2[512];
+int16_t buff2[1024];
 bool flag = 0;
 bool writeFlag = 0;
 
@@ -133,15 +133,12 @@ static void drv_pdm_hand(const nrfx_pdm_evt_t *evt){
   if((*evt).buffer_released){
     NRF_LOG_INFO("Released");
     for(size_t i = 0; i < buffsize; i++){
-        NRF_LOG_INFO("%d ",buff1[i]);
+        //NRF_LOG_INFO("%d ",buff1[i]);
         //printf("%d ",buff1[i]);
     }
     //printf("\r\n");
   }
   if((*evt).buffer_requested){
-    error = nrfx_pdm_buffer_set(buff1, buffsize);
-  }
-  /*if((*evt).buffer_requested){
     if(!flag){
       error = nrfx_pdm_buffer_set(buff1, 1024);
       if(error) {
@@ -165,7 +162,7 @@ static void drv_pdm_hand(const nrfx_pdm_evt_t *evt){
       error = nrfx_pdm_start();
     }
     
-  }*/
+  }
 }
 
 static void audio_init()
