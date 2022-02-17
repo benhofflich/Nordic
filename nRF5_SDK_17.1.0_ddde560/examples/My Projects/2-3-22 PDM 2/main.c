@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2014 - 2021, Nordic Semiconductor ASA
+ * Copyright (c) 2016 - 2021, Nordic Semiconductor ASA
  *
  * All rights reserved.
  *
@@ -38,40 +38,35 @@
  *
  */
 /** @file
- * @defgroup uart_example_main main.c
+ * @defgroup tw_scanner main.c
  * @{
- * @ingroup uart_example
- * @brief UART Example Application main file.
+ * @ingroup nrf_twi_example
+ * @brief TWI Sensor Example main file.
  *
- * This file contains the source code for a sample application using UART.
+ * This file contains the source code for a sample application using TWI.
  *
  */
 
-#include <stdbool.h>
-#include <stdint.h>
 #include <stdio.h>
-#include "app_uart.h"
+#include "boards.h"
+#include "app_util_platform.h"
 #include "app_error.h"
-#include "nrf_delay.h"
-#include "nrf.h"
-#include "bsp.h"
+#include "nrf_drv_twi.h"
 #include "nrfx_pdm.h"
 #include "nrf_pdm.h"
 #include "nrfx_gpiote.h"
-#if defined (UART_PRESENT)
-#include "nrf_uart.h"
-#endif
-#if defined (UARTE_PRESENT)
-#include "nrf_uarte.h"
-#endif
+
+
+#include "nrf_log.h"
+#include "nrf_log_ctrl.h"
+#include "nrf_log_default_backends.h"
 
 #define _pin_clk NRF_GPIO_PIN_MAP(0,5)
-#define _pin_din NRF_GPIO_PIN_MAP(0,6)
+#define _pin_din NRF_GPIO_PIN_MAP(1,2)
 
-uint16_t bufflength = 1024;
-int32_t buff1[1024];
-int16_t buff2[1024];
-int16_t *p_buff2 = buff2;
+uint16_t buffsize = 1024;
+int16_t buff1[1024];
+int16_t buff2[512];
 bool flag = 0;
 bool writeFlag = 0;
 
@@ -79,21 +74,8 @@ bool writeFlag = 0;
 //#define ENABLE_LOOPBACK_TEST  /**< if defined, then this example will be a loopback test, which means that TX should be connected to RX to get data loopback. */
 
 #define MAX_TEST_DATA_BYTES     (15U)                /**< max number of test bytes to be used for tx and rx. */
-#define UART_TX_BUF_SIZE 256                         /**< UART TX buffer size. */
-#define UART_RX_BUF_SIZE 256                         /**< UART RX buffer size. */
-
-void uart_error_handle(app_uart_evt_t * p_event)
-{
-    if (p_event->evt_type == APP_UART_COMMUNICATION_ERROR)
-    {
-        APP_ERROR_HANDLER(p_event->data.error_communication);
-    }
-    else if (p_event->evt_type == APP_UART_FIFO_ERROR)
-    {
-        APP_ERROR_HANDLER(p_event->data.error_code);
-    }
-}
-
+#define UART_TX_BUF_SIZE 1024                         /**< UART TX buffer size. */
+#define UART_RX_BUF_SIZE 1024                         /**< UART RX buffer size. */
 
 #ifdef ENABLE_LOOPBACK_TEST
 /* Use flow control in loopback test. */
@@ -142,11 +124,23 @@ static void uart_loopback_test()
 #define UART_HWFC APP_UART_FLOW_CONTROL_DISABLED
 #endif
 
+
+
 static void drv_pdm_hand(const nrfx_pdm_evt_t *evt){
 
   nrfx_err_t error = 0;
-  error = nrfx_pdm_buffer_set(p_buff2, bufflength);
-  p_buff2 += bufflength;
+  char buf[buffsize];
+  if((*evt).buffer_released){
+    NRF_LOG_INFO("Released");
+    for(size_t i = 0; i < buffsize; i++){
+        NRF_LOG_INFO("%d ",buff1[i]);
+        //printf("%d ",buff1[i]);
+    }
+    //printf("\r\n");
+  }
+  if((*evt).buffer_requested){
+    error = nrfx_pdm_buffer_set(buff1, buffsize);
+  }
   /*if((*evt).buffer_requested){
     if(!flag){
       error = nrfx_pdm_buffer_set(buff1, 1024);
@@ -156,7 +150,9 @@ static void drv_pdm_hand(const nrfx_pdm_evt_t *evt){
         printf("buff1 set ");
       }
       flag = 1;
-      writeFlag = 1;}
+      writeFlag = 1;
+      error = nrfx_pdm_start();
+    }
     else{
       error = nrfx_pdm_buffer_set(buff2, 1024);
       if(error) {
@@ -166,6 +162,7 @@ static void drv_pdm_hand(const nrfx_pdm_evt_t *evt){
       }
       flag = 0;
       writeFlag = 1;
+      error = nrfx_pdm_start();
     }
     
   }*/
@@ -186,68 +183,35 @@ static void audio_init()
 
 }
 
+static void log_init(void)
+{
+    ret_code_t err_code = NRF_LOG_INIT(NULL);
+    APP_ERROR_CHECK(err_code);
+
+    NRF_LOG_DEFAULT_BACKENDS_INIT();
+}
+
 /**
  * @brief Function for main application entry.
  */
 int main(void)
 {
-    uint32_t err_code;
-
-    bsp_board_init(BSP_INIT_LEDS);
-
-    const app_uart_comm_params_t comm_params =
-      {
-          RX_PIN_NUMBER,
-          TX_PIN_NUMBER,
-          RTS_PIN_NUMBER,
-          CTS_PIN_NUMBER,
-          UART_HWFC,
-          false,
-#if defined (UART_PRESENT)
-          NRF_UART_BAUDRATE_115200
-#else
-          NRF_UARTE_BAUDRATE_115200
-#endif
-      };
-
-    APP_UART_FIFO_INIT(&comm_params,
-                         UART_RX_BUF_SIZE,
-                         UART_TX_BUF_SIZE,
-                         uart_error_handle,
-                         APP_IRQ_PRIORITY_LOWEST,
-                         err_code);
-
-    APP_ERROR_CHECK(err_code);
-
-#ifndef ENABLE_LOOPBACK_TEST
-    printf("\r\nUART example started.\r\n");
-    
+    log_init();
+    NRF_LOG_INFO("PDM STARTED");
+    NRF_LOG_FLUSH();
     audio_init();
 
-    while (true)
-    {
-        uint8_t cr;
-        while (app_uart_get(&cr) != NRF_SUCCESS);
-        while (app_uart_put(cr) != NRF_SUCCESS);
-
-        if (cr == 'q' || cr == 'Q')
-        {
-            printf(" \r\nExit!\r\n");
-
-            while (true)
-            {
-                // Do nothing.
-            }
-        }
-    }
-#else
 
     // This part of the example is just for testing the loopback .
     while (true)
     {
-        uart_loopback_test();
-    }
-#endif
+    //NRF_LOG_FLUSH();
+      /*for(size_t i = 0; i < buffsize; i++){
+        NRF_LOG_INFO("%d",buff1[i]);
+        NRF_LOG_FLUSH();
+      }*/
+      
+    } 
 }
 
 

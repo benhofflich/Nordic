@@ -1,9 +1,9 @@
 Output/Release/Obj/uart_pca10056/main.o: \
  C:\Users\benja\OneDrive\Documents\GitHub\Nordic\nRF5_SDK_17.1.0_ddde560\examples\My\ Projects\PDM\ UART\main.c \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.62/include/stdbool.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.62/include/stdint.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.62/include/stdio.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.62/include/__crossworks.h \
+ C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.70a/include/stdbool.h \
+ C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.70a/include/stdint.h \
+ C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.70a/include/stdio.h \
+ C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.70a/include/__crossworks.h \
  ../../../../../../components/libraries/uart/app_uart.h \
  ../../../../../../components/libraries/util/app_util_platform.h \
  ../../../../../../modules/nrfx/mdk/compiler_abstraction.h \
@@ -30,7 +30,7 @@ Output/Release/Obj/uart_pca10056/main.o: \
  ../../../../../../modules/nrfx/nrfx.h \
  ../../../../../../integration/nrfx/nrfx_config.h ../config/sdk_config.h \
  ../../../../../../modules/nrfx/drivers/nrfx_common.h \
- C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.62/include/stddef.h \
+ C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.70a/include/stddef.h \
  ../../../../../../modules/nrfx/mdk/nrf_peripherals.h \
  ../../../../../../modules/nrfx/mdk/nrf52840_peripherals.h \
  ../../../../../../integration/nrfx/nrfx_glue.h \
