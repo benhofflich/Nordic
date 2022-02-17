@@ -58,22 +58,34 @@ Output/Release/Obj/twi_scanner_pca10056/main.o: \
  ../../../../../../modules/nrfx/drivers/include/nrfx_gpiote.h \
  ../../../../../../modules/nrfx/hal/nrf_gpiote.h \
  ../../../../../../modules/nrfx/hal/nrf_gpio.h \
- ../../../../../../components/libraries/log/nrf_log.h \
+ ../../../../../../components/libraries/fstorage/nrf_fstorage.h \
+ ../../../../../../components/libraries/experimental_section_vars/nrf_section.h \
+ ../../../../../../components/libraries/fstorage/nrf_fstorage_nvmc.h \
+ ../../../../../../components/libraries/fstorage/nrf_fstorage.h \
+ ../../../../../../components/libraries/cli/nrf_cli.h \
  ../../../../../../components/libraries/util/sdk_common.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.70a/include/string.h \
  ../../../../../../components/libraries/util/sdk_os.h \
  ../../../../../../components/libraries/util/app_util.h \
  ../../../../../../components/libraries/util/sdk_macros.h \
- ../../../../../../components/libraries/experimental_section_vars/nrf_section.h \
- ../../../../../../components/libraries/strerror/nrf_strerror.h \
- ../../../../../../components/libraries/log/src/nrf_log_internal.h \
- ../../../../../../components/libraries/log/nrf_log_instance.h \
- ../../../../../../components/libraries/log/nrf_log_types.h \
- ../../../../../../components/libraries/log/nrf_log_types.h \
- ../../../../../../components/libraries/log/nrf_log_ctrl.h \
- ../../../../../../components/libraries/log/src/nrf_log_ctrl_internal.h \
+ ../../../../../../components/libraries/cli/nrf_cli_types.h \
+ C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.70a/include/inttypes.h \
  ../../../../../../components/libraries/log/nrf_log_backend_interface.h \
  ../../../../../../components/libraries/memobj/nrf_memobj.h \
  C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.70a/include/stdlib.h \
  ../../../../../../components/libraries/balloc/nrf_balloc.h \
+ ../../../../../../components/libraries/log/nrf_log_instance.h \
+ ../../../../../../components/libraries/log/nrf_log_types.h \
+ ../../../../../../components/libraries/queue/nrf_queue.h \
+ ../../../../../../components/libraries/log/nrf_log_ctrl.h \
+ ../../../../../../components/libraries/log/src/nrf_log_ctrl_internal.h \
+ ../../../../../../components/libraries/log/nrf_log_backend_interface.h \
+ ../../../../../../external/fprintf/nrf_fprintf.h \
+ ../../../../../../external/fprintf/nrf_fprintf_format.h \
+ C:/Program\ Files/SEGGER/SEGGER\ Embedded\ Studio\ for\ ARM\ 5.70a/include/stdarg.h \
+ ../../../../../../external/fprintf/nrf_fprintf.h \
+ ../../../../../../components/libraries/log/nrf_log.h \
+ ../../../../../../components/libraries/strerror/nrf_strerror.h \
+ ../../../../../../components/libraries/log/src/nrf_log_internal.h \
+ ../../../../../../components/libraries/log/nrf_log_types.h \
  ../../../../../../components/libraries/log/nrf_log_default_backends.h

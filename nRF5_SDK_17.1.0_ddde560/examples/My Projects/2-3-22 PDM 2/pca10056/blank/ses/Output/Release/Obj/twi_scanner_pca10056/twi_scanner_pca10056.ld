@@ -80,8 +80,32 @@ SECTIONS
 
   . = ASSERT(__init_rodata_start__ == __init_rodata_end__ || (__init_rodata_end__ - __FLASH1_segment_start__) <= __FLASH1_segment_size__ , "error: .init_rodata is too large to fit in FLASH1 memory segment");
 
-  __text_load_start__ = ALIGN(__init_rodata_end__ , 4);
-  .text ALIGN(__init_rodata_end__ , 4) : AT(ALIGN(__init_rodata_end__ , 4))
+  __fs_data_load_start__ = ALIGN(__init_rodata_end__ , 4);
+  .fs_data ALIGN(__init_rodata_end__ , 4) : AT(ALIGN(__init_rodata_end__ , 4))
+  {
+    __fs_data_start__ = .;
+    *(.fs_data .fs_data.*)
+  }
+  __fs_data_end__ = __fs_data_start__ + SIZEOF(.fs_data);
+  __fs_data_size__ = SIZEOF(.fs_data);
+  __fs_data_load_end__ = __fs_data_end__;
+
+  . = ASSERT(__fs_data_start__ == __fs_data_end__ || (__fs_data_end__ - __FLASH1_segment_start__) <= __FLASH1_segment_size__ , "error: .fs_data is too large to fit in FLASH1 memory segment");
+
+  __nrf_queue_load_start__ = ALIGN(__fs_data_end__ , 4);
+  .nrf_queue ALIGN(__fs_data_end__ , 4) : AT(ALIGN(__fs_data_end__ , 4))
+  {
+    __nrf_queue_start__ = .;
+    *(.nrf_queue .nrf_queue.*)
+  }
+  __nrf_queue_end__ = __nrf_queue_start__ + SIZEOF(.nrf_queue);
+  __nrf_queue_size__ = SIZEOF(.nrf_queue);
+  __nrf_queue_load_end__ = __nrf_queue_end__;
+
+  . = ASSERT(__nrf_queue_start__ == __nrf_queue_end__ || (__nrf_queue_end__ - __FLASH1_segment_start__) <= __FLASH1_segment_size__ , "error: .nrf_queue is too large to fit in FLASH1 memory segment");
+
+  __text_load_start__ = ALIGN(__nrf_queue_end__ , 4);
+  .text ALIGN(__nrf_queue_end__ , 4) : AT(ALIGN(__nrf_queue_end__ , 4))
   {
     __text_start__ = .;
     *(.text .text.* .glue_7t .glue_7 .gnu.linkonce.t.* .gcc_except_table .ARM.extab* .gnu.linkonce.armextab.*)

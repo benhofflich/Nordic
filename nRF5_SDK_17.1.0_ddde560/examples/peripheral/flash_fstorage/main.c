@@ -268,6 +268,12 @@ int main(void)
     /* Let's write to flash. */
     NRF_LOG_INFO("Writing \"%x\" to flash.", m_data);
     rc = nrf_fstorage_write(&fstorage, 0x3e000, &m_data, sizeof(m_data), NULL);
+
+    uint32_t *p_data = (uint32_t*)0x20000000;
+    //NRF_LOG_INFO("%d",*p_data);
+    //*p_data = 0x12345678;
+    //NRF_LOG_INFO("%d",*p_data);
+
     APP_ERROR_CHECK(rc);
 
     wait_for_flash_ready(&fstorage);

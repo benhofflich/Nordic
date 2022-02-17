@@ -55,6 +55,9 @@
 #include "nrfx_pdm.h"
 #include "nrf_pdm.h"
 #include "nrfx_gpiote.h"
+#include "nrf_fstorage.h"
+#include "nrf_fstorage_nvmc.h"
+#include "nrf_cli.h"
 
 
 #include "nrf_log.h"
@@ -64,11 +67,27 @@
 #define _pin_clk NRF_GPIO_PIN_MAP(0,5)
 #define _pin_din NRF_GPIO_PIN_MAP(0,6)
 
-uint16_t buffsize = 1024;
-int16_t buff1[1024];
-int16_t buff2[512];
+uint16_t buffsize = 2048;
+int16_t buff1[2048];
+int16_t buff2[2048];
 bool flag = 0;
 bool writeFlag = 0;
+uint32_t page = 0x00080000;
+
+static void fstorage_evt_handler(nrf_fstorage_evt_t * p_evt);
+
+NRF_FSTORAGE_DEF(nrf_fstorage_t fstorage) =
+{
+    /* Set a handler for fstorage events. */
+    .evt_handler = fstorage_evt_handler,
+
+    /* These below are the boundaries of the flash space assigned to this instance of fstorage.
+     * You must set these manually, even at runtime, before nrf_fstorage_init() is called.
+     * The function nrf5_flash_end_addr_get() can be used to retrieve the last address on the
+     * last page of flash available to write data. */
+    .start_addr = 0x80000,
+    .end_addr   = 0xFFFFF,
+};
 
 
 //#define ENABLE_LOOPBACK_TEST  /**< if defined, then this example will be a loopback test, which means that TX should be connected to RX to get data loopback. */
@@ -124,48 +143,65 @@ static void uart_loopback_test()
 #define UART_HWFC APP_UART_FLOW_CONTROL_DISABLED
 #endif
 
+static void fstorage_evt_handler(nrf_fstorage_evt_t * p_evt)
+{
+    if (p_evt->result != NRF_SUCCESS)
+    {
+        NRF_LOG_INFO("--> Event received: ERROR while executing an fstorage operation.");
+        return;
+    }
 
+    switch (p_evt->id)
+    {
+        case NRF_FSTORAGE_EVT_WRITE_RESULT:
+        {
+            NRF_LOG_INFO("--> Event received: wrote %d bytes at address 0x%x.",
+                         p_evt->len, p_evt->addr);
+        } break;
+
+        case NRF_FSTORAGE_EVT_ERASE_RESULT:
+        {
+            NRF_LOG_INFO("--> Event received: erased %d page from address 0x%x.",
+                         p_evt->len, p_evt->addr);
+        } break;
+
+        default:
+            break;
+    }
+}
 
 static void drv_pdm_hand(const nrfx_pdm_evt_t *evt){
 
-  nrfx_err_t error = 0;
-  char buf[buffsize];
+  nrfx_err_t rc = 0;
   if((*evt).buffer_released){
-    NRF_LOG_INFO("Released");
-    for(size_t i = 0; i < buffsize; i++){
-        NRF_LOG_INFO("%d ",buff1[i]);
-        //printf("%d ",buff1[i]);
+    if(writeFlag){
+      if(!flag){
+        rc = nrf_fstorage_write(&fstorage, page, buff2, sizeof(buff2), NULL);
+        APP_ERROR_CHECK(rc);
+        writeFlag = 0;
+      }
+      else{
+        rc = nrf_fstorage_write(&fstorage, page, buff1, sizeof(buff1), NULL);
+        APP_ERROR_CHECK(rc);
+        writeFlag = 0;
+      }
+      page += 4096;
     }
-    //printf("\r\n");
   }
   if((*evt).buffer_requested){
-    error = nrfx_pdm_buffer_set(buff1, buffsize);
-  }
-  /*if((*evt).buffer_requested){
     if(!flag){
-      error = nrfx_pdm_buffer_set(buff1, 1024);
-      if(error) {
-        printf("Handler Error1: %d ",error);
-      } else{
-        printf("buff1 set ");
-      }
+      rc = nrfx_pdm_buffer_set(buff1, buffsize);
       flag = 1;
       writeFlag = 1;
-      error = nrfx_pdm_start();
+      //error = nrfx_pdm_start();
     }
     else{
-      error = nrfx_pdm_buffer_set(buff2, 1024);
-      if(error) {
-        printf("Handler Error2: %d ",error);
-      } else{
-        printf("buff2 set ");
-      }
+      rc = nrfx_pdm_buffer_set(buff2, buffsize);
       flag = 0;
       writeFlag = 1;
-      error = nrfx_pdm_start();
+      //error = nrfx_pdm_start();
     }
-    
-  }*/
+  }
 }
 
 static void audio_init()
@@ -196,9 +232,15 @@ static void log_init(void)
  */
 int main(void)
 {
+    ret_code_t rc;
     log_init();
     NRF_LOG_INFO("PDM STARTED");
-    NRF_LOG_FLUSH();
+
+    nrf_fstorage_api_t * p_fs_api;
+    p_fs_api = &nrf_fstorage_nvmc;
+    rc = nrf_fstorage_init(&fstorage, p_fs_api, NULL);
+    APP_ERROR_CHECK(rc);
+
     audio_init();
 
 
