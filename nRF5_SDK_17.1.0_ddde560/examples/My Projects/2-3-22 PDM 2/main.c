@@ -64,11 +64,9 @@
 #define _pin_clk NRF_GPIO_PIN_MAP(0,5)
 #define _pin_din NRF_GPIO_PIN_MAP(0,6)
 
-uint16_t buffsize = 1024;
-int16_t buff1[1024];
-int16_t buff2[512];
-bool flag = 0;
-bool writeFlag = 0;
+uint16_t buffsize = 32767;
+int16_t buff1[32767];
+int16_t* p_buff1 = &buff1;
 
 
 //#define ENABLE_LOOPBACK_TEST  /**< if defined, then this example will be a loopback test, which means that TX should be connected to RX to get data loopback. */
@@ -129,17 +127,13 @@ static void uart_loopback_test()
 static void drv_pdm_hand(const nrfx_pdm_evt_t *evt){
 
   nrfx_err_t error = 0;
-  char buf[buffsize];
   if((*evt).buffer_released){
-    NRF_LOG_INFO("Released");
-    for(size_t i = 0; i < buffsize; i++){
-        NRF_LOG_INFO("%d ",buff1[i]);
-        //printf("%d ",buff1[i]);
-    }
     //printf("\r\n");
   }
   if((*evt).buffer_requested){
-    error = nrfx_pdm_buffer_set(buff1, buffsize);
+    p_buff1 += buffsize;
+    error = nrfx_pdm_buffer_set(p_buff1, buffsize);
+    error = nrfx_pdm_start();
   }
   /*if((*evt).buffer_requested){
     if(!flag){
