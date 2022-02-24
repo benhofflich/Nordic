@@ -509,17 +509,18 @@
 // <1=> Left rising 
 
 #ifndef PDM_CONFIG_EDGE
-#define PDM_CONFIG_EDGE 0
+#define PDM_CONFIG_EDGE 1
 #endif
 
 // <o> PDM_CONFIG_CLOCK_FREQ  - Clock frequency
- 
+
+// <33554432=>  256k
 // <134217728=> 1000k 
 // <138412032=> 1032k (default) 
 // <142606336=> 1067k 
 
 #ifndef PDM_CONFIG_CLOCK_FREQ
-#define PDM_CONFIG_CLOCK_FREQ 138412032
+#define PDM_CONFIG_CLOCK_FREQ 33554432
 #endif
 
 // <o> PDM_CONFIG_IRQ_PRIORITY  - Interrupt priority

@@ -172,7 +172,9 @@ static void audio_init()
 {
   ret_code_t err;
   nrfx_pdm_config_t config1 = NRFX_PDM_DEFAULT_CONFIG(_pin_clk, _pin_din);
-
+  config1.gain_l = 0x01;
+  config1.gain_r = 0x01;
+  
   
   nrf_pdm_enable();
   err = nrfx_pdm_init(&config1, drv_pdm_hand);
