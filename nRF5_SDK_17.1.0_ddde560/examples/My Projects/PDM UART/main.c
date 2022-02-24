@@ -63,6 +63,8 @@
 #include "nrf_log_ctrl.h"
 #include "nrf_log_default_backends.h"
 
+#define buffLength 1024
+
 #if defined (UART_PRESENT)
 #include "nrf_uart.h"
 #endif
@@ -70,10 +72,11 @@
 #include "nrf_uarte.h"
 #endif
 
-#define _pin_clk NRF_GPIO_PIN_MAP(0,5)
-#define _pin_din NRF_GPIO_PIN_MAP(0,6)
+#define _pin_clk NRF_GPIO_PIN_MAP(0,26)
+#define _pin_din NRF_GPIO_PIN_MAP(0,27)
 
-int16_t buff1[1024];
+int16_t buff1[32767];
+
 int16_t buff2[1024];
 bool flag = 0;
 bool writeFlag = 0;
@@ -136,7 +139,8 @@ static void drv_pdm_hand(const nrfx_pdm_evt_t *evt){
 
   nrfx_err_t error = 0;
   if((*evt).buffer_requested){
-    error = nrfx_pdm_buffer_set(buff1, 1024);
+    
+    error = nrfx_pdm_buffer_set(&buff1[0], 32767);
   }
   /*if((*evt).buffer_requested){
     if(!flag){
@@ -162,7 +166,6 @@ static void drv_pdm_hand(const nrfx_pdm_evt_t *evt){
       error = nrfx_pdm_start();
     }*/
     
-  }
 }
 
 static void audio_init()
