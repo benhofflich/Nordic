@@ -4,6 +4,7 @@ FID = fopen(filename);
 dataFromfile = textscan(FID, '%s');% %s for reading string values (hexadecimal numbers)
 dataFromfile = dataFromfile{1};
 fclose(FID);
+Fs = 15625;
 %%
 dataFromfile = dataFromfile(2:end-1);
 newHex = strings(length(dataFromfile)/2,1);
@@ -15,7 +16,15 @@ decData = hex2num(q, newHex);
 %% 
 
 %pdmData = decData(2:2:end);
-decData = cell2mat(decData);
-plot(decData)
+%decData = cell2mat(decData);
 
-bode(decData)
+pspectrum(decData)
+%audfilt = designfilt('highpassfir','PassbandFrequency',1500,'StopbandFrequency',1,'PassbandRipple',1,'StopbandAttenuation',60,'SampleRate',Fs);
+%filteredAud = filtfilt(audfilt,decData);
+%filteredAud = filteredAud/max(filteredAud);
+filteredAud = decData/max(decData);
+
+x = [1:length(decData)]/Fs;
+plot(x,decData)
+hold on
+plot(x,filteredAud)

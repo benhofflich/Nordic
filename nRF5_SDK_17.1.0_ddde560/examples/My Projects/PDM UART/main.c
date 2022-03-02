@@ -75,7 +75,9 @@
 #define _pin_clk NRF_GPIO_PIN_MAP(0,26)
 #define _pin_din NRF_GPIO_PIN_MAP(0,27)
 
-int16_t buff1[32767];
+static int16_t buff1[32767];
+static int16_t buffer_length = 32767;
+int16_t *p_buff1 = &buff1[0];
 
 int16_t buff2[1024];
 bool flag = 0;
@@ -141,6 +143,7 @@ static void drv_pdm_hand(const nrfx_pdm_evt_t *evt){
   if((*evt).buffer_requested){
     
     error = nrfx_pdm_buffer_set(&buff1[0], 32767);
+    p_buff1 += buffer_length;
   }
   /*if((*evt).buffer_requested){
     if(!flag){
