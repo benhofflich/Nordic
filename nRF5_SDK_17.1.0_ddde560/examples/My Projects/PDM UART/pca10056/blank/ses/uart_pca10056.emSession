@@ -10,7 +10,7 @@
   <FrameBufferWindow bufferHeight="-1" addressSpace="" addressText="" bufferWidth="-1"/>
  </FrameBufferWindow>
  <Memory1>
-  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="uart_pca10056" radix="16" sizeText="" addressText=""/>
+  <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="uart_pca10056" radix="16" sizeText="65534" addressText="0x20000588"/>
  </Memory1>
  <Memory2>
   <MemoryWindow addressSpace="" dataSize="1" autoEvaluate="0" viewMode="0" addressOrder="0" columnsText="" refreshPeriod="0" name="uart_pca10056" radix="16" sizeText="" addressText=""/>
@@ -51,7 +51,7 @@
  </TraceWindow>
  <Watch1>
   <Watches active="1" update="Never">
-   <Watchpoint expression="err" name="err" radix="16" linenumber="188" filename="../../../main.c"/>
+   <Watchpoint expression="err" name="err" radix="16" linenumber="193" filename="../../../main.c"/>
   </Watches>
  </Watch1>
  <Watch2>
@@ -64,13 +64,12 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="17" y="148" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.c" selected="1" top="139" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="17" y="116" useTextEdit="1" openedFrom="C:/Users/benja/OneDrive/Documents/GitHub/Nordic/nRF5_SDK_17.1.0_ddde560/examples/My Projects/PDM UART/main.c" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/uart/app_uart.h" selected="0" top="184" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="56" y="101" useTextEdit="1" openedFrom="C:/Users/benja/OneDrive/Documents/GitHub/Nordic/nRF5_SDK_17.1.0_ddde560/examples/My Projects/PDM UART/main.c" useBinaryEdit="0" left="0" path="../../../../../../modules/nrfx/drivers/include/nrfx_pdm.h" selected="0" top="72" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="8" y="521" useTextEdit="1" openedFrom="C:/Users/benja/OneDrive/Documents/GitHub/Nordic/nRF5_SDK_17.1.0_ddde560/examples/My Projects/PDM UART/main.c" useBinaryEdit="0" left="0" path="../config/sdk_config.h" selected="0" top="505" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="17" y="116" useTextEdit="1" openedFrom="C:/Users/benja/OneDrive/Documents/GitHub/Nordic/nRF5_SDK_17.1.0_ddde560/examples/My Projects/PDM UART/main.c" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/uart/app_uart.h" selected="0" top="187" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="38" y="102" useTextEdit="1" openedFrom="C:/Users/benja/OneDrive/Documents/GitHub/Nordic/nRF5_SDK_17.1.0_ddde560/examples/My Projects/PDM UART/main.c" useBinaryEdit="0" left="0" path="../../../../../../modules/nrfx/drivers/include/nrfx_pdm.h" selected="0" top="72" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="38" y="525" useTextEdit="1" openedFrom="C:/Users/benja/OneDrive/Documents/GitHub/Nordic/nRF5_SDK_17.1.0_ddde560/examples/My Projects/PDM UART/main.c" useBinaryEdit="0" left="0" path="../config/sdk_config.h" selected="0" top="508" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="204" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/uart/app_uart_fifo.c" selected="0" top="176" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="11" y="289" useTextEdit="1" openedFrom="C:/Users/benja/OneDrive/Documents/GitHub/Nordic/nRF5_SDK_17.1.0_ddde560/examples/My Projects/PDM UART/main.c" useBinaryEdit="0" left="0" path="../../../../../../modules/nrfx/drivers/src/nrfx_pdm.c" selected="0" top="266" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="20" y="93" useTextEdit="1" openedFrom="C:/Users/benja/OneDrive/Documents/GitHub/Nordic/nRF5_SDK_17.1.0_ddde560/examples/My Projects/PDM UART/main.c" useBinaryEdit="0" left="0" path="../../../../../../modules/nrfx/hal/nrf_pdm.h" selected="0" top="278" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="8" y="58" useTextEdit="1" openedFrom="C:/Users/benja/OneDrive/Documents/GitHub/Nordic/nRF5_SDK_17.1.0_ddde560/modules/nrfx/drivers/include/nrfx_pdm.h" useBinaryEdit="0" left="0" path="../../../../../../modules/nrfx/hal/nrf_pdm.h" selected="0" top="36" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/balloc/nrf_balloc.c" selected="0" top="78" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="143" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../components/boards/boards.c" selected="0" top="115" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="329" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="C:/Program Files/SEGGER/SEGGER Embedded Studio for ARM 5.62/source/thumb_crt0.s" selected="0" top="303" codecName="Default"/>
@@ -82,7 +81,8 @@
   <SessionOpenFile windowGroup="DockEditLeft" x="62" y="46" useTextEdit="1" openedFrom="C:/Users/benja/OneDrive/Documents/GitHub/Nordic/nRF5_SDK_17.1.0_ddde560/modules/nrfx/hal/nrf_gpio.h" useBinaryEdit="0" left="0" path="../../../../../../components/toolchain/cmsis/include/cmsis_gcc.h" selected="0" top="27" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="18" y="600" useTextEdit="1" openedFrom="C:/Users/benja/OneDrive/Documents/GitHub/Nordic/nRF5_SDK_17.1.0_ddde560/modules/nrfx/hal/nrf_pdm.h" useBinaryEdit="0" left="0" path="../../../../../../modules/nrfx/mdk/nrf52840.h" selected="0" top="577" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="46" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../components/libraries/fifo/app_fifo.c" selected="0" top="46" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="71" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../modules/nrfx/mdk/ses_startup_nrf52840.s" selected="0" top="49" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="71" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../../../../modules/nrfx/mdk/ses_startup_nrf52840.s" selected="0" top="58" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="196" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../../../main.c" selected="1" top="120" codecName="Default"/>
  </Files>
- <ARMCrossStudioWindow activeProject="uart_pca10056" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Release" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="C:/Users/benja/OneDrive/Documents/GitHub/Nordic/nRF5_SDK_17.1.0_ddde560/modules/nrfx/drivers/src" debugSearchPath="" autoConnectCapabilities="3199"/>
+ <ARMCrossStudioWindow activeProject="uart_pca10056" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Release" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="C:/Users/benja/OneDrive/Documents/GitHub/Nordic/nRF5_SDK_17.1.0_ddde560/modules/nrfx/drivers/src" debugSearchPath="" autoConnectCapabilities="3711"/>
 </session>

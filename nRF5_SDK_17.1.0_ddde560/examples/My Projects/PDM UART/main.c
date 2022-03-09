@@ -142,7 +142,7 @@ static void drv_pdm_hand(const nrfx_pdm_evt_t *evt){
   nrfx_err_t error = 0;
   if((*evt).buffer_requested){
     
-    error = nrfx_pdm_buffer_set(&buff1[0], 32767);
+    error = nrfx_pdm_buffer_set(p_buff1, buffer_length);
     p_buff1 += buffer_length;
   }
   /*if((*evt).buffer_requested){
