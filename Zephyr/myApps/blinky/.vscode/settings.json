@@ -1,0 +1,12 @@
+{
+  "nrf-connect.topdir": "${nrf-connect.sdk:1.7.0}",
+  "nrf-connect.toolchain.path": "${nrf-connect.toolchain:1.7.0}",
+  "nrf-connect.applications": [
+    "c:\\Users\\benja\\OneDrive\\Documents\\GitHub\\Nordic\\Zephyr\\myApps\\blinky",
+    "c:\\Users\\benja\\OneDrive\\Documents\\GitHub\\Nordic\\Zephyr\\myApps\\peripheral_uart"
+  ],
+  "files.associations": {
+    "device.h": "c"
+  },
+  "C_Cpp.errorSquiggles": "Enabled"
+}

@@ -1,4 +1,4 @@
-filename = 'PDM 6k.txt';
+filename = '3-9-22.txt';
 q = quantizer('fixed', 'nearest', 'saturate', [16 0]);% quantizer object for num2hex function  
 FID = fopen(filename);
 dataFromfile = textscan(FID, '%s');% %s for reading string values (hexadecimal numbers)

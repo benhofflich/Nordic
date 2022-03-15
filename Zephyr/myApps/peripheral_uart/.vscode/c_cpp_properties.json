@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/Users/benja/ncs/v1.7.0/zephyr/include",
+                "C:/Users/benja/ncs/v1.7.0/toolchain/opt/lib/gcc/arm-none-eabi/9.2.1/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-msvc-x64",
+            "configurationProvider": "nrf-connect"
+        }
+    ],
+    "version": 4
+}
