@@ -312,7 +312,7 @@ uint32_t ble_nus_init(ble_nus_t * p_nus, ble_nus_init_t const * p_nus_init)
 
 
 uint32_t ble_nus_data_send(ble_nus_t * p_nus,
-                           uint8_t   * p_data,
+                           uint16_t   * p_data,
                            uint16_t  * p_length,
                            uint16_t    conn_handle)
 {
@@ -340,11 +340,29 @@ uint32_t ble_nus_data_send(ble_nus_t * p_nus,
         return NRF_ERROR_INVALID_PARAM;
     }
 
+    uint8_t p_encoded_data[(*p_length)*2];
+    uint16_t encoded_i = 0;
+    for(size_t i = 0; i < *p_length; i++){
+        if (p_data[i] > 0x00ff)
+        {
+            uint8_t encoded_point[2];
+            uint16_encode(p_data[i], encoded_point);
+            p_encoded_data[encoded_i++] = encoded_point[1];
+            p_encoded_data[encoded_i++] = encoded_point[0];
+        }
+        else
+        {
+            p_encoded_data[encoded_i++] = 0x00;
+            p_encoded_data[encoded_i++] = (uint8_t)p_data[i];
+        }
+        
+    }
+
     memset(&hvx_params, 0, sizeof(hvx_params));
 
     hvx_params.handle = p_nus->tx_handles.value_handle;
-    hvx_params.p_data = p_data;
-    hvx_params.p_len  = p_length;
+    hvx_params.p_data = p_encoded_data;
+    hvx_params.p_len  = &encoded_i;
     hvx_params.type   = BLE_GATT_HVX_NOTIFICATION;
 
     return sd_ble_gatts_hvx(conn_handle, &hvx_params);

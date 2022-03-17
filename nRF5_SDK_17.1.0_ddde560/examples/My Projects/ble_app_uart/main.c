@@ -110,7 +110,6 @@ NRF_BLE_GATT_DEF(m_gatt);                                                       
 NRF_BLE_QWR_DEF(m_qwr);                                                             /**< Context for the Queued Write module.*/
 BLE_ADVERTISING_DEF(m_advertising);                                                 /**< Advertising module instance. */
 
-volatile uint16_t counter = 0;
 static uint16_t   m_conn_handle          = BLE_CONN_HANDLE_INVALID;                 /**< Handle of the current connection. */
 static uint16_t   m_ble_nus_max_data_len = BLE_GATT_ATT_MTU_DEFAULT - 3;            /**< Maximum length of data (in bytes) that can be transmitted to the peer by the Nordic UART service module. */
 static ble_uuid_t m_adv_uuids[]          =                                          /**< Universally unique service identifier. */
@@ -521,17 +520,21 @@ void bsp_event_handler(bsp_event_t event)
 /**@snippet [Handling the data received over UART] */
 void uart_event_handle(app_uart_evt_t * p_event)
 {
-    static uint8_t data_array[BLE_NUS_MAX_DATA_LEN];
+    static uint16_t data_array[BLE_NUS_MAX_DATA_LEN];
     static uint8_t index = 0;
     uint32_t       err_code;
 
     switch (p_event->evt_type)
     {
         case APP_UART_DATA_READY:
-            
-
             UNUSED_VARIABLE(app_uart_get(&data_array[index]));
+            data_array[0] = 0x0123;
+            data_array[1] = 0x4567;
+            data_array[2] = 0x89AB;
+            data_array[3] = 0xCDEF;
+            NRF_LOG_INFO("%x",data_array[index]);
             index++;
+            
 
             if ((data_array[index - 1] == '\n') ||
                 (data_array[index - 1] == '\r') ||
@@ -544,8 +547,8 @@ void uart_event_handle(app_uart_evt_t * p_event)
 
                     do
                     {
-
                         uint16_t length = (uint16_t)index;
+                        NRF_LOG_INFO("Length: %x",length);
                         err_code = ble_nus_data_send(&m_nus, data_array, &length, m_conn_handle);
                         if ((err_code != NRF_ERROR_INVALID_STATE) &&
                             (err_code != NRF_ERROR_RESOURCES) &&

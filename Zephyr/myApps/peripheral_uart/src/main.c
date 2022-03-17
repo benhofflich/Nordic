@@ -629,7 +629,9 @@ void ble_write_thread(void)
 		struct uart_data_t *buf = k_fifo_get(&fifo_uart_rx_data,
 						     K_FOREVER);
 
-		if (bt_nus_send(NULL, buf->data, buf->len)) {
+		int32_t ret = bt_nus_send(NULL, buf->data, buf->len);
+		LOG_INF("%d",ret);
+		if (ret) {
 			LOG_WRN("Failed to send data over BLE connection");
 		}
 

@@ -20,8 +20,8 @@ APPLICATION_BINARY_DIR:PATH=C:/Users/benja/OneDrive/Documents/GitHub/Nordic/Zeph
 //Application Source Directory
 APPLICATION_SOURCE_DIR:PATH=C:/Users/benja/OneDrive/Documents/GitHub/Nordic/Zephyr/myApps/peripheral_uart
 
-//No help, variable specified on the command line.
-BOARD:UNINITIALIZED=nrf52840dk_nrf52840
+//Selected board
+BOARD:STRING=nrf52840dk_nrf52840
 
 //Path to a file.
 BOARD_DIR:PATH=C:/Users/benja/ncs/v1.7.0/zephyr/boards/arm/nrf52840dk_nrf52840
@@ -42,7 +42,7 @@ CACHED_BOARD:STRING=nrf52840dk_nrf52840
 // listed, e.g. CONF_FILE="prj1.confi;prj2.conf" The CACHED_CONF_FILE
 // is internal Zephyr variable used between CMake runs. To change
 // CONF_FILE, use the CONF_FILE variable.
-CACHED_CONF_FILE:STRING=C:/Users/benja/OneDrive/Documents/GitHub/Nordic/Zephyr/myApps/peripheral_uart/prj.conf
+CACHED_CONF_FILE:STRING=c:/Users/benja/OneDrive/Documents/GitHub/Nordic/Zephyr/myApps/peripheral_uart/prj.conf
 
 //Selected shield
 CACHED_SHIELD:STRING=
@@ -115,8 +115,8 @@ CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 //Flags used by the CXX compiler during RELWITHDEBINFO builds.
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
-//C compiler
-CMAKE_C_COMPILER:STRING=C:/Users/benja/ncs/v1.7.0/toolchain/opt/bin/arm-none-eabi-gcc.exe
+//Path to a program.
+CMAKE_C_COMPILER:FILEPATH=C:/Users/benja/ncs/v1.7.0/toolchain/opt/bin/arm-none-eabi-gcc.exe
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -429,8 +429,6 @@ CMAKE_CXX_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_CXX_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS_RELWITHDEBINFO
 CMAKE_CXX_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_C_COMPILER
-CMAKE_C_COMPILER-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_COMPILER_AR
 CMAKE_C_COMPILER_AR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_COMPILER_RANLIB
