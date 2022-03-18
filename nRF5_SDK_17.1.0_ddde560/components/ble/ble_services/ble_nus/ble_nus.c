@@ -310,6 +310,27 @@ uint32_t ble_nus_init(ble_nus_t * p_nus, ble_nus_init_t const * p_nus_init)
     /**@snippet [Adding proprietary characteristic to the SoftDevice] */
 }
 
+/*void audio_encoder(int16_t* data, uint16_t* length, int8_t* encoded)
+{
+  encoded[0] = 0x01;
+  encoded[1] = 0x23;
+  encoded[2] = 0x45;
+  encoded[3] = 0x67;
+  encoded[4] = 0x89;
+  encoded[5] = 0xAB;
+  encoded[6] = 0xCD;
+  encoded[7] = 0xEF;
+
+  for(size_t i = 8; i < *length + 8; i++)
+  {
+    if(i == 8){
+      encoded[8] = (int8_t)(data[i] & 0x00FF);
+    }
+    else{
+      encoded[i] = (int8_t)((data[i] - data[i-1]) & (0x00FF));
+    }
+  }
+}*/
 
 uint32_t ble_nus_data_send(ble_nus_t * p_nus,
                            int16_t   * p_data,
@@ -340,6 +361,8 @@ uint32_t ble_nus_data_send(ble_nus_t * p_nus,
         return NRF_ERROR_INVALID_PARAM;
     }
 
+
+
     uint8_t p_encoded_data[(*p_length)*2];
     uint16_t encoded_i = 0;
     for(size_t i = 0; i < *p_length; i++){
@@ -355,6 +378,10 @@ uint32_t ble_nus_data_send(ble_nus_t * p_nus,
         }
         
     }
+
+    //int8_t p_encoded_data[*p_length];
+    //audio_encoder(p_data, p_length, p_encoded_data);
+
 
     memset(&hvx_params, 0, sizeof(hvx_params));
 

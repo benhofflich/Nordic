@@ -561,7 +561,9 @@ static void drv_pdm_hand(const nrfx_pdm_evt_t *evt){
             do
             {
                 err_code = ble_nus_data_send(&m_nus, buff4, &buffer_length, m_conn_handle);
+
                 //NRF_LOG_HEXDUMP_INFO(buff4, buffer_length);
+
                 if ((err_code != NRF_ERROR_INVALID_STATE) &&
                     (err_code != NRF_ERROR_RESOURCES) &&
                     (err_code != NRF_ERROR_NOT_FOUND))
@@ -580,7 +582,9 @@ static void drv_pdm_hand(const nrfx_pdm_evt_t *evt){
             do
             {
                 err_code = ble_nus_data_send(&m_nus, buff1, &buffer_length, m_conn_handle);
+
                 //NRF_LOG_HEXDUMP_INFO(buff1, buffer_length);
+
                 if ((err_code != NRF_ERROR_INVALID_STATE) &&
                     (err_code != NRF_ERROR_RESOURCES) &&
                     (err_code != NRF_ERROR_NOT_FOUND))
@@ -599,7 +603,9 @@ static void drv_pdm_hand(const nrfx_pdm_evt_t *evt){
             do
             {
                 err_code = ble_nus_data_send(&m_nus, buff2, &buffer_length, m_conn_handle);
+
                 //NRF_LOG_HEXDUMP_INFO(buff2, buffer_length);
+
                 if ((err_code != NRF_ERROR_INVALID_STATE) &&
                     (err_code != NRF_ERROR_RESOURCES) &&
                     (err_code != NRF_ERROR_NOT_FOUND))
@@ -618,7 +624,9 @@ static void drv_pdm_hand(const nrfx_pdm_evt_t *evt){
             do
             {
                 err_code = ble_nus_data_send(&m_nus, buff3, &buffer_length, m_conn_handle);
+
                 //NRF_LOG_INFO(buff3, buffer_length);
+                NRF_LOG_INFO(buff3, buffer_length);
                 if ((err_code != NRF_ERROR_INVALID_STATE) &&
                     (err_code != NRF_ERROR_RESOURCES) &&
                     (err_code != NRF_ERROR_NOT_FOUND))
