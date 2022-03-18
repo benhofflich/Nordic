@@ -2492,7 +2492,7 @@
 // <e> NRFX_PDM_ENABLED - nrfx_pdm - PDM peripheral driver
 //==========================================================
 #ifndef NRFX_PDM_ENABLED
-#define NRFX_PDM_ENABLED 0
+#define NRFX_PDM_ENABLED 1
 #endif
 // <o> NRFX_PDM_CONFIG_MODE  - Mode
  
@@ -4922,7 +4922,7 @@
 // <e> PDM_ENABLED - nrf_drv_pdm - PDM peripheral driver - legacy layer
 //==========================================================
 #ifndef PDM_ENABLED
-#define PDM_ENABLED 0
+#define PDM_ENABLED 1
 #endif
 // <o> PDM_CONFIG_MODE  - Mode
  
@@ -4939,17 +4939,21 @@
 // <1=> Left rising 
 
 #ifndef PDM_CONFIG_EDGE
-#define PDM_CONFIG_EDGE 0
+#define PDM_CONFIG_EDGE 1
 #endif
 
 // <o> PDM_CONFIG_CLOCK_FREQ  - Clock frequency
  
+// <34340864=>  256k (4kHz SR) NOT WORKING
+// <51511296=>  384k (6kHz SR)
+// <68681728=>  512k (8kHz SR)
 // <134217728=> 1000k 
+// <137363456=> 1024k (16kHz SR)
 // <138412032=> 1032k (default) 
 // <142606336=> 1067k 
 
 #ifndef PDM_CONFIG_CLOCK_FREQ
-#define PDM_CONFIG_CLOCK_FREQ 138412032
+#define PDM_CONFIG_CLOCK_FREQ 68681728
 #endif
 
 // <o> PDM_CONFIG_IRQ_PRIORITY  - Interrupt priority

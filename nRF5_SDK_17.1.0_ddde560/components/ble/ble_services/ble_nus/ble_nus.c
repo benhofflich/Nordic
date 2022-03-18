@@ -312,7 +312,7 @@ uint32_t ble_nus_init(ble_nus_t * p_nus, ble_nus_init_t const * p_nus_init)
 
 
 uint32_t ble_nus_data_send(ble_nus_t * p_nus,
-                           uint16_t   * p_data,
+                           int16_t   * p_data,
                            uint16_t  * p_length,
                            uint16_t    conn_handle)
 {
@@ -343,12 +343,10 @@ uint32_t ble_nus_data_send(ble_nus_t * p_nus,
     uint8_t p_encoded_data[(*p_length)*2];
     uint16_t encoded_i = 0;
     for(size_t i = 0; i < *p_length; i++){
-        if (p_data[i] > 0x00ff)
+        if (p_data[i] >> 8)
         {
-            uint8_t encoded_point[2];
-            uint16_encode(p_data[i], encoded_point);
-            p_encoded_data[encoded_i++] = encoded_point[1];
-            p_encoded_data[encoded_i++] = encoded_point[0];
+            p_encoded_data[encoded_i++] = (uint8_t) ((p_data[i] & 0xFF00) >> 8);
+            p_encoded_data[encoded_i++] = (uint8_t) ((p_data[i] & 0x00FF) >> 0);
         }
         else
         {

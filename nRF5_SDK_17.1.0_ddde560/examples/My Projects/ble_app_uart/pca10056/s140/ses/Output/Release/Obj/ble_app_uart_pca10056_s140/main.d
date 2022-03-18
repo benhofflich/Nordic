@@ -102,6 +102,9 @@ Output/Release/Obj/ble_app_uart_pca10056_s140/main.o: \
  ../../../../../../components/boards/pca10056.h \
  ../../../../../../components/libraries/button/app_button.h \
  ../../../../../../components/libraries/pwr_mgmt/nrf_pwr_mgmt.h \
+ ../../../../../../modules/nrfx/drivers/include/nrfx_pdm.h \
+ ../../../../../../modules/nrfx/hal/nrf_pdm.h \
+ ../../../../../../modules/nrfx/hal/nrf_pdm.h \
  ../../../../../../modules/nrfx/hal/nrf_uart.h \
  ../../../../../../modules/nrfx/hal/nrf_uarte.h \
  ../../../../../../components/libraries/log/nrf_log.h \

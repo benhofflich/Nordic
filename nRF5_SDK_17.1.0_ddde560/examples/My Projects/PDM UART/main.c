@@ -63,8 +63,6 @@
 #include "nrf_log_ctrl.h"
 #include "nrf_log_default_backends.h"
 
-#define buffLength 1024
-
 #if defined (UART_PRESENT)
 #include "nrf_uart.h"
 #endif
@@ -76,11 +74,15 @@
 #define _pin_din NRF_GPIO_PIN_MAP(0,27)
 
 static int16_t buff1[32767];
+static int16_t buff2[32767];
+static int16_t buff3[32767];
 static int16_t buffer_length = 32767;
 int16_t *p_buff1 = &buff1[0];
+int16_t *p_buff2 = &buff2[0];
+int16_t *p_buff3 = &buff3[0];
 
-int16_t buff2[1024];
-bool flag = 0;
+
+uint8_t flag = 0;
 bool writeFlag = 0;
 
 
@@ -140,34 +142,50 @@ static void uart_loopback_test()
 static void drv_pdm_hand(const nrfx_pdm_evt_t *evt){
 
   nrfx_err_t error = 0;
-  if((*evt).buffer_requested){
+  /*if((*evt).buffer_requested){
     
     error = nrfx_pdm_buffer_set(p_buff1, buffer_length);
     //p_buff1 += buffer_length;
-  }
-  /*if((*evt).buffer_requested){
-    if(!flag){
-      error = nrfx_pdm_buffer_set(buff1, 1024);
-      if(error) {
-        printf("Handler Error1: %d ",error);
-      } else{
-        printf("buff1 set ");
-      }
-      flag = 1;
-      writeFlag = 1;
-      error = nrfx_pdm_start();
+  }*/
+  if((*evt).buffer_requested){
+    switch(flag) {
+        case 0:
+            error = nrfx_pdm_buffer_set(p_buff1, buffer_length);
+            if(error) {
+              NRF_LOG_INFO("Handler Error1: %d ",error);
+            } else{
+              NRF_LOG_INFO("buff1 set ");
+            }
+            flag = 1;
+            writeFlag = 1;
+            //error = nrfx_pdm_start();
+            break;
+        case 1:
+            error = nrfx_pdm_buffer_set(p_buff2, buffer_length);
+            if(error) {
+              NRF_LOG_INFO("Handler Error2: %d ",error);
+            } else{
+              NRF_LOG_INFO("buff2 set ");
+            }
+            flag = 2;
+            writeFlag = 1;
+            //error = nrfx_pdm_start();
+            break;
+        case 2:
+            error = nrfx_pdm_buffer_set(p_buff3, buffer_length);
+            if(error) {
+              NRF_LOG_INFO("Handler Error3: %d ",error);
+            } else{
+              NRF_LOG_INFO("buff3 set ");
+            }
+            flag = 0;
+            writeFlag = 1;
+            //error = nrfx_pdm_start();
+            break;
+        default:
+            break;
     }
-    else{
-      error = nrfx_pdm_buffer_set(buff2, 1024);
-      if(error) {
-        printf("Handler Error2: %d ",error);
-      } else{
-        printf("buff2 set ");
-      }
-      flag = 0;
-      writeFlag = 1;
-      error = nrfx_pdm_start();
-    }*/
+  }
     
 }
 

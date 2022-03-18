@@ -69,6 +69,10 @@
 #include "bsp_btn_ble.h"
 #include "nrf_pwr_mgmt.h"
 
+#include "nrfx_pdm.h"
+#include "nrf_pdm.h"
+
+
 #if defined (UART_PRESENT)
 #include "nrf_uart.h"
 #endif
@@ -103,6 +107,25 @@
 
 #define UART_TX_BUF_SIZE                256                                         /**< UART TX buffer size. */
 #define UART_RX_BUF_SIZE                256                                         /**< UART RX buffer size. */
+
+#define _pin_clk NRF_GPIO_PIN_MAP(0,26)
+#define _pin_din NRF_GPIO_PIN_MAP(0,27)
+
+static int16_t buff1[BLE_NUS_MAX_DATA_LEN/2];
+static int16_t buff2[BLE_NUS_MAX_DATA_LEN/2];
+static int16_t buff3[BLE_NUS_MAX_DATA_LEN/2];
+static int16_t buff4[BLE_NUS_MAX_DATA_LEN/2];
+
+static uint16_t buffer_length = BLE_NUS_MAX_DATA_LEN/2;
+
+int16_t *p_buff1 = &buff1[0];
+int16_t *p_buff2 = &buff2[0];
+int16_t *p_buff3 = &buff3[0];
+int16_t *p_buff4 = &buff4[0];
+
+uint8_t flag = 0;
+bool writeFlag = 0;
+bool pdm_send = 0;
 
 
 BLE_NUS_DEF(m_nus, NRF_SDH_BLE_TOTAL_LINK_COUNT);                                   /**< BLE NUS service instance. */
@@ -510,6 +533,107 @@ void bsp_event_handler(bsp_event_t event)
     }
 }
 
+static void drv_pdm_hand(const nrfx_pdm_evt_t *evt){
+
+  nrfx_err_t err_code = 0;
+  /*if((*evt).buffer_requested){
+      if(pdm_send){
+      NRF_LOG_HEXDUMP_INFO(buff1,buffer_length)
+          do
+          {
+              err_code = ble_nus_data_send(&m_nus, buff1, &buffer_length, m_conn_handle);
+              if ((err_code != NRF_ERROR_INVALID_STATE) &&
+                  (err_code != NRF_ERROR_RESOURCES) &&
+                  (err_code != NRF_ERROR_NOT_FOUND))
+              {
+                  APP_ERROR_CHECK(err_code);
+              }
+          } while (err_code == NRF_ERROR_RESOURCES);
+          pdm_send = 0;
+      }
+    
+    err_code = nrfx_pdm_buffer_set(p_buff1, buffer_length);
+    //p_buff1 += buffer_length;
+  }*/
+  if((*evt).buffer_requested){
+    switch(flag) {
+        case 0:
+            do
+            {
+                err_code = ble_nus_data_send(&m_nus, buff4, &buffer_length, m_conn_handle);
+                if ((err_code != NRF_ERROR_INVALID_STATE) &&
+                    (err_code != NRF_ERROR_RESOURCES) &&
+                    (err_code != NRF_ERROR_NOT_FOUND))
+                {
+                  APP_ERROR_CHECK(err_code);
+                }
+
+            } while (err_code == NRF_ERROR_RESOURCES);
+
+            err_code = nrfx_pdm_buffer_set(p_buff1, buffer_length);
+            flag = 1;
+            writeFlag = 1;
+            //error = nrfx_pdm_start();
+            break;
+        case 1:
+            do
+            {
+                err_code = ble_nus_data_send(&m_nus, buff1, &buffer_length, m_conn_handle);
+                if ((err_code != NRF_ERROR_INVALID_STATE) &&
+                    (err_code != NRF_ERROR_RESOURCES) &&
+                    (err_code != NRF_ERROR_NOT_FOUND))
+                {
+                  APP_ERROR_CHECK(err_code);
+                }
+
+            } while (err_code == NRF_ERROR_RESOURCES);
+
+            err_code = nrfx_pdm_buffer_set(p_buff2, buffer_length);
+            flag = 2;
+            writeFlag = 1;
+            //error = nrfx_pdm_start();
+            break;
+        case 2:
+            do
+            {
+                err_code = ble_nus_data_send(&m_nus, buff2, &buffer_length, m_conn_handle);
+                if ((err_code != NRF_ERROR_INVALID_STATE) &&
+                    (err_code != NRF_ERROR_RESOURCES) &&
+                    (err_code != NRF_ERROR_NOT_FOUND))
+                {
+                  APP_ERROR_CHECK(err_code);
+                }
+
+            } while (err_code == NRF_ERROR_RESOURCES);
+
+            err_code = nrfx_pdm_buffer_set(p_buff3, buffer_length);
+            flag = 0;
+            writeFlag = 1;
+            //error = nrfx_pdm_start();
+            break;
+        case 3:
+            do
+            {
+                err_code = ble_nus_data_send(&m_nus, buff3, &buffer_length, m_conn_handle);
+                if ((err_code != NRF_ERROR_INVALID_STATE) &&
+                    (err_code != NRF_ERROR_RESOURCES) &&
+                    (err_code != NRF_ERROR_NOT_FOUND))
+                {
+                  APP_ERROR_CHECK(err_code);
+                }
+
+            } while (err_code == NRF_ERROR_RESOURCES);
+
+            err_code = nrfx_pdm_buffer_set(p_buff4, buffer_length);
+            flag = 0;
+            writeFlag = 1;
+            //error = nrfx_pdm_start();
+            break;
+        default:
+            break;
+    }
+  }
+}
 
 /**@brief   Function for handling app_uart events.
  *
@@ -520,7 +644,7 @@ void bsp_event_handler(bsp_event_t event)
 /**@snippet [Handling the data received over UART] */
 void uart_event_handle(app_uart_evt_t * p_event)
 {
-    static uint16_t data_array[BLE_NUS_MAX_DATA_LEN];
+    /*static uint8_t data_array[BLE_NUS_MAX_DATA_LEN];
     static uint8_t index = 0;
     uint32_t       err_code;
 
@@ -528,11 +652,6 @@ void uart_event_handle(app_uart_evt_t * p_event)
     {
         case APP_UART_DATA_READY:
             UNUSED_VARIABLE(app_uart_get(&data_array[index]));
-            data_array[0] = 0x0123;
-            data_array[1] = 0x4567;
-            data_array[2] = 0x89AB;
-            data_array[3] = 0xCDEF;
-            NRF_LOG_INFO("%x",data_array[index]);
             index++;
             
 
@@ -540,6 +659,7 @@ void uart_event_handle(app_uart_evt_t * p_event)
                 (data_array[index - 1] == '\r') ||
                 (index >= m_ble_nus_max_data_len))
             {
+                pdm_send = 1;
                 if (index > 1)
                 {
                     NRF_LOG_DEBUG("Ready to send data over BLE NUS");
@@ -573,7 +693,7 @@ void uart_event_handle(app_uart_evt_t * p_event)
 
         default:
             break;
-    }
+    }*/
 }
 /**@snippet [Handling the data received over UART] */
 
@@ -698,6 +818,22 @@ static void advertising_start(void)
     APP_ERROR_CHECK(err_code);
 }
 
+static void audio_init()
+{
+  ret_code_t err;
+  nrfx_pdm_config_t config1 = NRFX_PDM_DEFAULT_CONFIG(_pin_clk, _pin_din);
+  config1.gain_l = 0x01;
+  config1.gain_r = 0x01;
+  
+  
+  nrf_pdm_enable();
+  err = nrfx_pdm_init(&config1, drv_pdm_hand);
+  APP_ERROR_CHECK(err);
+
+  err = nrfx_pdm_start();
+  APP_ERROR_CHECK(err);
+
+}
 
 /**@brief Application main function.
  */
@@ -722,6 +858,9 @@ int main(void)
     printf("\r\nUART started.\r\n");
     NRF_LOG_INFO("Debug logging for UART over RTT started.");
     advertising_start();
+
+    audio_init();
+
 
     // Enter main loop.
     for (;;)
