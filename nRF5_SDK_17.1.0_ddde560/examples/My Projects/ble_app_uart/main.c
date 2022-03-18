@@ -95,8 +95,8 @@
 
 #define APP_ADV_DURATION                18000                                       /**< The advertising duration (180 seconds) in units of 10 milliseconds. */
 
-#define MIN_CONN_INTERVAL               MSEC_TO_UNITS(20, UNIT_1_25_MS)             /**< Minimum acceptable connection interval (20 ms), Connection interval uses 1.25 ms units. */
-#define MAX_CONN_INTERVAL               MSEC_TO_UNITS(75, UNIT_1_25_MS)             /**< Maximum acceptable connection interval (75 ms), Connection interval uses 1.25 ms units. */
+#define MIN_CONN_INTERVAL               MSEC_TO_UNITS(7.5, UNIT_1_25_MS)             /**< Minimum acceptable connection interval (20 ms), Connection interval uses 1.25 ms units. */
+#define MAX_CONN_INTERVAL               MSEC_TO_UNITS(7.5, UNIT_1_25_MS)             /**< Maximum acceptable connection interval (75 ms), Connection interval uses 1.25 ms units. */
 #define SLAVE_LATENCY                   0                                           /**< Slave latency. */
 #define CONN_SUP_TIMEOUT                MSEC_TO_UNITS(4000, UNIT_10_MS)             /**< Connection supervisory timeout (4 seconds), Supervision Timeout uses 10 ms units. */
 #define FIRST_CONN_PARAMS_UPDATE_DELAY  APP_TIMER_TICKS(5000)                       /**< Time from initiating event (connect or start of notification) to first time sd_ble_gap_conn_param_update is called (5 seconds). */
@@ -561,6 +561,7 @@ static void drv_pdm_hand(const nrfx_pdm_evt_t *evt){
             do
             {
                 err_code = ble_nus_data_send(&m_nus, buff4, &buffer_length, m_conn_handle);
+                //NRF_LOG_HEXDUMP_INFO(buff4, buffer_length);
                 if ((err_code != NRF_ERROR_INVALID_STATE) &&
                     (err_code != NRF_ERROR_RESOURCES) &&
                     (err_code != NRF_ERROR_NOT_FOUND))
@@ -579,6 +580,7 @@ static void drv_pdm_hand(const nrfx_pdm_evt_t *evt){
             do
             {
                 err_code = ble_nus_data_send(&m_nus, buff1, &buffer_length, m_conn_handle);
+                //NRF_LOG_HEXDUMP_INFO(buff1, buffer_length);
                 if ((err_code != NRF_ERROR_INVALID_STATE) &&
                     (err_code != NRF_ERROR_RESOURCES) &&
                     (err_code != NRF_ERROR_NOT_FOUND))
@@ -597,6 +599,7 @@ static void drv_pdm_hand(const nrfx_pdm_evt_t *evt){
             do
             {
                 err_code = ble_nus_data_send(&m_nus, buff2, &buffer_length, m_conn_handle);
+                //NRF_LOG_HEXDUMP_INFO(buff2, buffer_length);
                 if ((err_code != NRF_ERROR_INVALID_STATE) &&
                     (err_code != NRF_ERROR_RESOURCES) &&
                     (err_code != NRF_ERROR_NOT_FOUND))
@@ -615,6 +618,7 @@ static void drv_pdm_hand(const nrfx_pdm_evt_t *evt){
             do
             {
                 err_code = ble_nus_data_send(&m_nus, buff3, &buffer_length, m_conn_handle);
+                //NRF_LOG_INFO(buff3, buffer_length);
                 if ((err_code != NRF_ERROR_INVALID_STATE) &&
                     (err_code != NRF_ERROR_RESOURCES) &&
                     (err_code != NRF_ERROR_NOT_FOUND))
@@ -632,6 +636,7 @@ static void drv_pdm_hand(const nrfx_pdm_evt_t *evt){
         default:
             break;
     }
+    //NRF_LOG_INFO("New");
   }
 }
 
@@ -644,7 +649,7 @@ static void drv_pdm_hand(const nrfx_pdm_evt_t *evt){
 /**@snippet [Handling the data received over UART] */
 void uart_event_handle(app_uart_evt_t * p_event)
 {
-    /*static uint8_t data_array[BLE_NUS_MAX_DATA_LEN];
+    static uint8_t data_array[BLE_NUS_MAX_DATA_LEN];
     static uint8_t index = 0;
     uint32_t       err_code;
 
@@ -660,7 +665,8 @@ void uart_event_handle(app_uart_evt_t * p_event)
                 (index >= m_ble_nus_max_data_len))
             {
                 pdm_send = 1;
-                if (index > 1)
+                NRF_LOG_FLUSH();
+                /*if (index > 1)
                 {
                     NRF_LOG_DEBUG("Ready to send data over BLE NUS");
                     NRF_LOG_HEXDUMP_DEBUG(data_array, index);
@@ -677,7 +683,7 @@ void uart_event_handle(app_uart_evt_t * p_event)
                             APP_ERROR_CHECK(err_code);
                         }
                     } while (err_code == NRF_ERROR_RESOURCES);
-                }
+                }*/
 
                 index = 0;
             }
@@ -693,7 +699,7 @@ void uart_event_handle(app_uart_evt_t * p_event)
 
         default:
             break;
-    }*/
+    }
 }
 /**@snippet [Handling the data received over UART] */
 

@@ -1,4 +1,4 @@
-filename = 'BLE Log3.txt';
+filename = 'BLE Log4.txt';
 fileID = fopen(filename);
 line = fgetl(fileID);
 hexes = {};
