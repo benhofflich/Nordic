@@ -1,4 +1,4 @@
-filename = 'BLE Log4.txt';
+filename = 'BLE Log Demo.txt';
 fileID = fopen(filename);
 line = fgetl(fileID);
 hexes = {};
@@ -31,6 +31,7 @@ q = quantizer('fixed', 'nearest', 'saturate', [16 0]);% quantizer object for num
 hexNum = hex2num(q,newNums);
 %% 
 pdmData = cell2mat(hexNum);
+
 %%
 Fs = 8000;
 filteredAud = pdmData/max(pdmData);
