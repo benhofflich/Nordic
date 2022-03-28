@@ -558,6 +558,10 @@ static void drv_pdm_hand(const nrfx_pdm_evt_t *evt){
   if((*evt).buffer_requested){
     switch(flag) {
         case 0:
+            err_code = nrfx_pdm_buffer_set(p_buff1, buffer_length);
+            flag = 1;
+            writeFlag = 1;
+
             do
             {
                 err_code = ble_nus_data_send(&m_nus, buff4, &buffer_length, m_conn_handle);
@@ -573,12 +577,14 @@ static void drv_pdm_hand(const nrfx_pdm_evt_t *evt){
 
             } while (err_code == NRF_ERROR_RESOURCES);
 
-            err_code = nrfx_pdm_buffer_set(p_buff1, buffer_length);
-            flag = 1;
-            writeFlag = 1;
+            
             //error = nrfx_pdm_start();
             break;
         case 1:
+            err_code = nrfx_pdm_buffer_set(p_buff2, buffer_length);
+            flag = 2;
+            writeFlag = 1;
+
             do
             {
                 err_code = ble_nus_data_send(&m_nus, buff1, &buffer_length, m_conn_handle);
@@ -594,12 +600,14 @@ static void drv_pdm_hand(const nrfx_pdm_evt_t *evt){
 
             } while (err_code == NRF_ERROR_RESOURCES);
 
-            err_code = nrfx_pdm_buffer_set(p_buff2, buffer_length);
-            flag = 2;
-            writeFlag = 1;
+            
             //error = nrfx_pdm_start();
             break;
         case 2:
+            err_code = nrfx_pdm_buffer_set(p_buff3, buffer_length);
+            flag = 3;
+            writeFlag = 1;
+
             do
             {
                 err_code = ble_nus_data_send(&m_nus, buff2, &buffer_length, m_conn_handle);
@@ -615,18 +623,19 @@ static void drv_pdm_hand(const nrfx_pdm_evt_t *evt){
 
             } while (err_code == NRF_ERROR_RESOURCES);
 
-            err_code = nrfx_pdm_buffer_set(p_buff3, buffer_length);
-            flag = 0;
-            writeFlag = 1;
             //error = nrfx_pdm_start();
             break;
         case 3:
+            err_code = nrfx_pdm_buffer_set(p_buff4, buffer_length);
+            flag = 0;
+            writeFlag = 1;
+
             do
             {
                 err_code = ble_nus_data_send(&m_nus, buff3, &buffer_length, m_conn_handle);
 
                 //NRF_LOG_INFO(buff3, buffer_length);
-                NRF_LOG_INFO(buff3, buffer_length);
+                //NRF_LOG_INFO(buff3, buffer_length);
                 if ((err_code != NRF_ERROR_INVALID_STATE) &&
                     (err_code != NRF_ERROR_RESOURCES) &&
                     (err_code != NRF_ERROR_NOT_FOUND))
@@ -636,9 +645,6 @@ static void drv_pdm_hand(const nrfx_pdm_evt_t *evt){
 
             } while (err_code == NRF_ERROR_RESOURCES);
 
-            err_code = nrfx_pdm_buffer_set(p_buff4, buffer_length);
-            flag = 0;
-            writeFlag = 1;
             //error = nrfx_pdm_start();
             break;
         default:
