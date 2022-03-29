@@ -69,6 +69,8 @@ NRF_LOG_MODULE_REGISTER();
  * @param[in] p_nus     Nordic UART Service structure.
  * @param[in] p_ble_evt Pointer to the event received from BLE stack.
  */
+
+static uint8_t CHECKSUMCOUNT = 0;
 static void on_connect(ble_nus_t * p_nus, ble_evt_t const * p_ble_evt)
 {
     ret_code_t                 err_code;
@@ -363,8 +365,10 @@ uint32_t ble_nus_data_send(ble_nus_t * p_nus,
 
 
 
-    uint8_t p_encoded_data[(*p_length)*2];
-    uint16_t encoded_i = 0;
+    uint8_t p_encoded_data[(*p_length)*2+1];
+    uint16_t encoded_i = 1;
+    p_encoded_data[0] = CHECKSUMCOUNT++;
+
     for(size_t i = 0; i < *p_length; i++){
         if (p_data[i] >> 8)
         {

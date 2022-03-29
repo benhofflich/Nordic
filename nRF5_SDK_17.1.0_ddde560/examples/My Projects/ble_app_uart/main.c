@@ -111,12 +111,12 @@
 #define _pin_clk NRF_GPIO_PIN_MAP(0,26)
 #define _pin_din NRF_GPIO_PIN_MAP(0,27)
 
-static int16_t buff1[BLE_NUS_MAX_DATA_LEN/2];
-static int16_t buff2[BLE_NUS_MAX_DATA_LEN/2];
-static int16_t buff3[BLE_NUS_MAX_DATA_LEN/2];
-static int16_t buff4[BLE_NUS_MAX_DATA_LEN/2];
+static int16_t buff1[BLE_NUS_MAX_DATA_LEN/2-1];
+static int16_t buff2[BLE_NUS_MAX_DATA_LEN/2-1];
+static int16_t buff3[BLE_NUS_MAX_DATA_LEN/2-1];
+static int16_t buff4[BLE_NUS_MAX_DATA_LEN/2-1];
 
-static uint16_t buffer_length = BLE_NUS_MAX_DATA_LEN/2;
+static uint16_t buffer_length = BLE_NUS_MAX_DATA_LEN/2-1;
 
 int16_t *p_buff1 = &buff1[0];
 int16_t *p_buff2 = &buff2[0];
